@@ -1,0 +1,2 @@
+D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\Definitions.UE4EscapeRoom.h
+D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Source\UE4EscapeRoom\UE4EscapeRoom.h

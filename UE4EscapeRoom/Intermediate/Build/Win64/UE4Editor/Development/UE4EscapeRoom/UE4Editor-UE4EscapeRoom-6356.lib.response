@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-UE4EscapeRoom-6356.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4EscapeRoomEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\UE4EscapeRoom.cpp.obj"
+"D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\WorldPosition.cpp.obj"
+"D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\UE4EscapeRoom.init.gen.cpp.obj"
+"D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\WorldPosition.gen.cpp.obj"
+"D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\Default.rc2.res"
+/OUT:"D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\UE4Editor-UE4EscapeRoom-6356.lib"
+/INCLUDE:IMPLEMENT_MODULE_UE4EscapeRoom

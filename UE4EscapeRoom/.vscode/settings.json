@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"D:/Documents/GameDesign/UE4-EscapeRoom/UE4EscapeRoom/.vscode": true,
+		"D:/Documents/GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content": true,
+		"D:/Documents/GameDesign/UE4-EscapeRoom/UE4EscapeRoom/DerivedDataCache": true,
+		"D:/Documents/GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Intermediate": true,
+		"D:/Documents/GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved": true
+	}
+}

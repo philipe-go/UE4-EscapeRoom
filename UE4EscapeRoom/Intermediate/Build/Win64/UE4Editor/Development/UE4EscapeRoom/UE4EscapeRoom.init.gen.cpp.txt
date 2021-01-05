@@ -1,0 +1,3 @@
+D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\Definitions.UE4EscapeRoom.h
+D:\Documents\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Documents\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
