@@ -1,3 +1,5 @@
 D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\Definitions.UE4EscapeRoom.h
 D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Source\UE4EscapeRoom\OpenDoor.h
 D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\UE4EscapeRoom\OpenDoor.generated.h
+D:\Documents\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/TriggerVolume.h
+D:\Documents\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TriggerVolume.generated.h

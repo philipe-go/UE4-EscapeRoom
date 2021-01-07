@@ -6,9 +6,6 @@ UWorldPosition::UWorldPosition()
 {
 	PrimaryComponentTick.bCanEverTick = true;
 
-	UE_LOG(LogTemp, Display, TEXT("UE LOG"));
-	UE_LOG(LogTemp, Error, TEXT("Hello"));
-	UE_LOG(LogTemp, Warning, TEXT("World"));
 }
 
 void UWorldPosition::BeginPlay()
