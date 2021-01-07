@@ -58,7 +58,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOpenDoor); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UOpenDoor)
 
 
-#define UE4EscapeRoom_Source_UE4EscapeRoom_OpenDoor_h_13_PRIVATE_PROPERTY_OFFSET
+#define UE4EscapeRoom_Source_UE4EscapeRoom_OpenDoor_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__OpenYaw() { return STRUCT_OFFSET(UOpenDoor, OpenYaw); }
+
+
 #define UE4EscapeRoom_Source_UE4EscapeRoom_OpenDoor_h_10_PROLOG
 #define UE4EscapeRoom_Source_UE4EscapeRoom_OpenDoor_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

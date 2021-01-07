@@ -5103,3 +5103,1101 @@ Script Stack (0 frames):
 [2021.01.07-02.45.07:023][818]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D298EF4A00), frame # 341818
 [2021.01.07-02.45.07:024][818]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
 [2021.01.07-02.45.07:058][819]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2021.01.07-02.50.37:798][ 84]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.07-02.50.37:816][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.07-02.50.37:816][ 84]PIE: New page: PIE session: FirstMap (Jan. 6, 2021, 4:50:37 p.m.)
+[2021.01.07-02.50.37:817][ 84]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstMap
+[2021.01.07-02.50.37:827][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010918s)
+[2021.01.07-02.50.37:830][ 84]LogAIModule: Creating AISystem for world FirstMap
+[2021.01.07-02.50.37:830][ 84]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D317521E00), frame # 349084
+[2021.01.07-02.50.37:831][ 84]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D2EEE447C0), frame # 349084
+[2021.01.07-02.50.37:832][ 84]LogPlayLevel: PIE: World Init took: (0.004336s)
+[2021.01.07-02.50.37:832][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstMap.FirstMap to /Game/Maps/UEDPIE_0_FirstMap.FirstMap (0.015622s)
+[2021.01.07-02.50.37:848][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2021.01.07-02.50.37:855][ 84]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.07-02.50.37:855][ 84]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.07-02.50.37:855][ 84]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.07-02.50.37:855][ 84]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.07-02.50.37:855][ 84]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.07-02.50.37:855][ 84]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.07-02.50.37:855][ 84]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.07-02.50.37:855][ 84]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.07-02.50.37:855][ 84]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.07-02.50.37:855][ 84]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.07-02.50.37:860][ 84]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.07-02.50.37:861][ 84]LogAudioMixer: Display: 1: FrontRight
+[2021.01.07-02.50.37:887][ 84]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.07-02.50.37:888][ 84]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.07-02.50.37:888][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.07-02.50.37:888][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.07-02.50.37:888][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.07-02.50.37:906][ 84]LogInit: FAudioDevice initialized.
+[2021.01.07-02.50.37:915][ 84]LogLoad: Game class is 'GameModeBase'
+[2021.01.07-02.50.37:919][ 84]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2021.01.06-21.50.37
+[2021.01.07-02.50.37:919][ 84]LogWorld: Bringing up level for play took: 0.002539
+[2021.01.07-02.50.37:919][ 84]LogOnline: OSS: Creating online subsystem instance for: :Context_63
+[2021.01.07-02.50.37:923][ 84]PIE: Server logged in
+[2021.01.07-02.50.37:924][ 84]PIE: Play in editor total start time 0.111 seconds.
+[2021.01.07-02.51.10:508][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.07-02.51.10:509][739]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstMap
+[2021.01.07-02.51.10:509][739]LogWorld: UWorld::CleanupWorld for FirstMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.07-02.51.10:510][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.07-02.51.10:534][739]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.07-02.51.10:538][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.07-02.51.10:586][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.07-02.51.10:644][739]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D2EEE447C0), frame # 352739
+[2021.01.07-02.51.10:644][739]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D317521E00), frame # 352739
+[2021.01.07-02.51.10:647][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.01.07-02.51.10:747][740]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2021.01.07-02.53.43:955][268]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2021.01.07-02.53.43:972][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstMap" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/Autosaves/Game/Maps/FirstMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.01.07-02.53.44:106][268]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/FirstMap_Auto15973F74047BA915713C8D383E38A5665.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/Autosaves/Game/Maps/FirstMap_Auto1.umap'
+[2021.01.07-02.53.44:114][268]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstMap' took 0.209
+[2021.01.07-02.53.44:114][268]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.209
+[2021.01.07-02.55.28:283][666]LogRenderer: Reallocating scene render targets to support 1432x1332 Format 10 NumSamples 1 (Frame:275866).
+[2021.01.07-02.58.35:537][592]Candidate modules for hot reload:
+[2021.01.07-02.58.35:537][592]  UE4EscapeRoom
+[2021.01.07-02.58.35:537][592]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4EscapeRoom,3281 UE4EscapeRoomEditor Win64 Development -Project="D:/Documents/GameDesign/UE4-EscapeRoom/UE4EscapeRoom/UE4EscapeRoom.uproject" "D:/Documents/GameDesign/UE4-EscapeRoom/UE4EscapeRoom/UE4EscapeRoom.uproject"  -IgnoreJunk]
+[2021.01.07-02.58.36:916][592]Warning: Starting HotReload took  1.4s.
+[2021.01.07-02.58.48:563][899]CompilerResultsLog: New page: Compilation - Jan. 6, 2021, 4:58:48 p.m.
+[2021.01.07-02.58.48:563][899]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\UE4-EscapeRoom).
+[2021.01.07-02.58.48:563][899]CompilerResultsLog: Parsing headers for UE4EscapeRoomEditor
+[2021.01.07-02.58.48:563][899]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\UE4EscapeRoom.uproject" "D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4EscapeRoomEditor\Development\UE4EscapeRoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\lipin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.07-02.58.48:563][899]CompilerResultsLog: Reflection code generated for UE4EscapeRoomEditor in 9.1031065 seconds
+[2021.01.07-02.58.48:563][899]CompilerResultsLog: Building UE4EscapeRoomEditor...
+[2021.01.07-02.58.48:563][899]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.07-02.58.48:563][899]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.01.07-02.58.48:563][899]CompilerResultsLog:   [1/5] OpenDoor.cpp
+[2021.01.07-02.58.48:563][899]CompilerResultsLog:    D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Source\UE4EscapeRoom\OpenDoor.h(29) : error C3409: empty attribute block is not allowed
+[2021.01.07-02.58.48:563][899]CompilerResultsLog:   [2/5] OpenDoor.gen.cpp
+[2021.01.07-02.58.48:563][899]CompilerResultsLog:    D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Source\UE4EscapeRoom/OpenDoor.h(29) : error C3409: empty attribute block is not allowed
+[2021.01.07-02.58.48:563][899]LogMainFrame: MainFrame: Module compiling took 13.032 seconds
+[2021.01.07-02.58.48:564][899]Warning: HotReload failed, recompile failed
+[2021.01.07-02.58.58:034][913]LogSlate: Window 'Message Log' being destroyed
+[2021.01.07-02.58.58:045][913]LogSlate: Window 'Message Log' being destroyed
+[2021.01.07-03.00.29:207][329]Candidate modules for hot reload:
+[2021.01.07-03.00.29:207][329]  UE4EscapeRoom
+[2021.01.07-03.00.29:208][329]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4EscapeRoom,8781 UE4EscapeRoomEditor Win64 Development -Project="D:/Documents/GameDesign/UE4-EscapeRoom/UE4EscapeRoom/UE4EscapeRoom.uproject" "D:/Documents/GameDesign/UE4-EscapeRoom/UE4EscapeRoom/UE4EscapeRoom.uproject"  -IgnoreJunk]
+[2021.01.07-03.00.30:545][329]Warning: Starting HotReload took  1.4s.
+[2021.01.07-03.00.44:730][634]CompilerResultsLog: New page: Compilation - Jan. 6, 2021, 5:00:44 p.m.
+[2021.01.07-03.00.44:731][634]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\UE4-EscapeRoom).
+[2021.01.07-03.00.44:731][634]CompilerResultsLog: Parsing headers for UE4EscapeRoomEditor
+[2021.01.07-03.00.44:731][634]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\UE4EscapeRoom.uproject" "D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4EscapeRoomEditor\Development\UE4EscapeRoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\lipin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.07-03.00.44:731][634]CompilerResultsLog: Reflection code generated for UE4EscapeRoomEditor in 9.4972168 seconds
+[2021.01.07-03.00.44:731][634]CompilerResultsLog: Building UE4EscapeRoomEditor...
+[2021.01.07-03.00.44:731][634]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.07-03.00.44:731][634]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.01.07-03.00.44:731][634]CompilerResultsLog:   [1/6] OpenDoor.cpp
+[2021.01.07-03.00.44:731][634]CompilerResultsLog:   [2/6] OpenDoor.gen.cpp
+[2021.01.07-03.00.44:731][634]CompilerResultsLog:   [3/6] UE4EscapeRoom.init.gen.cpp
+[2021.01.07-03.00.44:731][634]CompilerResultsLog:   [4/6] UE4Editor-UE4EscapeRoom-8781.lib
+[2021.01.07-03.00.44:731][634]CompilerResultsLog:      Creating library D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\UE4Editor-UE4EscapeRoom-8781.lib and object D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\UE4Editor-UE4EscapeRoom-8781.exp
+[2021.01.07-03.00.44:731][634]CompilerResultsLog:   [5/6] UE4Editor-UE4EscapeRoom-8781.dll
+[2021.01.07-03.00.44:732][634]CompilerResultsLog:      Creating library D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\UE4Editor-UE4EscapeRoom-8781.suppressed.lib and object D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\UE4Editor-UE4EscapeRoom-8781.suppressed.exp
+[2021.01.07-03.00.44:732][634]CompilerResultsLog:   [6/6] UE4EscapeRoomEditor.target
+[2021.01.07-03.00.44:732][634]CompilerResultsLog: Total time in Parallel executor: 2.63 seconds
+[2021.01.07-03.00.44:732][634]CompilerResultsLog: Total execution time: 13.71 seconds
+[2021.01.07-03.00.44:732][634]LogMainFrame: MainFrame: Module compiling took 15.542 seconds
+[2021.01.07-03.00.44:739][634]LogClass: Could not find existing class OpenDoor in package /Script/UE4EscapeRoom for HotReload, assuming new class
+[2021.01.07-03.00.44:747][634]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2021.01.07-03.00.44:756][634]LogTemp: Display: UE LOG
+[2021.01.07-03.00.44:756][634]LogTemp: Error: Hello
+[2021.01.07-03.00.44:756][634]LogTemp: Warning: World
+[2021.01.07-03.00.44:757][634]LogContentBrowser: Native class hierarchy updated for 'UE4EscapeRoom' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2021.01.07-03.00.44:758][634]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.07-03.00.44:796][634]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 3430 classes and 826 folders.
+[2021.01.07-03.00.44:803][634]Display: HotReload took 15.6s.
+[2021.01.07-03.00.54:497][292]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.07-03.00.54:516][292]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.07-03.00.54:516][292]PIE: New page: PIE session: FirstMap (Jan. 6, 2021, 5:00:54 p.m.)
+[2021.01.07-03.00.54:541][292]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstMap
+[2021.01.07-03.00.54:548][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006809s)
+[2021.01.07-03.00.54:551][292]LogAIModule: Creating AISystem for world FirstMap
+[2021.01.07-03.00.54:551][292]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D29EA28A00), frame # 361292
+[2021.01.07-03.00.54:551][292]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D2DD3D7740), frame # 361292
+[2021.01.07-03.00.54:552][292]LogPlayLevel: PIE: World Init took: (0.003774s)
+[2021.01.07-03.00.54:552][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstMap.FirstMap to /Game/Maps/UEDPIE_0_FirstMap.FirstMap (0.010827s)
+[2021.01.07-03.00.54:566][292]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.01.07-03.00.54:574][292]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.07-03.00.54:574][292]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.07-03.00.54:574][292]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.07-03.00.54:574][292]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.07-03.00.54:574][292]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.07-03.00.54:574][292]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.07-03.00.54:574][292]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.07-03.00.54:574][292]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.07-03.00.54:575][292]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.07-03.00.54:575][292]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.07-03.00.54:580][292]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.07-03.00.54:580][292]LogAudioMixer: Display: 1: FrontRight
+[2021.01.07-03.00.54:606][292]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.07-03.00.54:606][292]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.07-03.00.54:606][292]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.07-03.00.54:606][292]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.07-03.00.54:607][292]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.07-03.00.54:624][292]LogInit: FAudioDevice initialized.
+[2021.01.07-03.00.54:633][292]LogLoad: Game class is 'GameModeBase'
+[2021.01.07-03.00.54:636][292]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2021.01.06-22.00.54
+[2021.01.07-03.00.54:637][292]LogWorld: Bringing up level for play took: 0.002389
+[2021.01.07-03.00.54:637][292]LogOnline: OSS: Creating online subsystem instance for: :Context_64
+[2021.01.07-03.00.54:640][292]PIE: Server logged in
+[2021.01.07-03.00.54:641][292]PIE: Play in editor total start time 0.131 seconds.
+[2021.01.07-03.00.58:064][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.07-03.00.58:064][688]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstMap
+[2021.01.07-03.00.58:064][688]LogWorld: UWorld::CleanupWorld for FirstMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.07-03.00.58:064][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.07-03.00.58:073][688]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.07-03.00.58:075][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.07-03.00.58:117][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.07-03.00.58:119][688]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D2DD3D7740), frame # 361688
+[2021.01.07-03.00.58:119][688]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D29EA28A00), frame # 361688
+[2021.01.07-03.00.58:120][688]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2021.01.07-03.00.58:164][689]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2021.01.07-03.00.59:558][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door_Door)
+[2021.01.07-03.01.00:489][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door_Door)
+[2021.01.07-03.01.11:589][882]Cmd: SELECT NONE
+[2021.01.07-03.01.14:902][982]Cmd: TRANSACTION UNDO
+[2021.01.07-03.01.14:902][982]LogEditorTransaction: Undo Select None
+[2021.01.07-03.01.57:653][778]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door_Doorframe)
+[2021.01.07-03.02.41:640][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door_Door)
+[2021.01.07-03.03.01:657][538]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door_Doorframe)
+[2021.01.07-03.03.02:674][629]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Door_Door)
+[2021.01.07-03.03.06:607][878]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Logcabin_Cabin_MainBeams)
+[2021.01.07-03.03.08:898][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstMap" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.07-03.03.08:913][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.01.07-03.03.08:966][943]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/FirstMapA4BC2C0C49107C1770A621BAF4768E16.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap.umap'
+[2021.01.07-03.03.08:991][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstMap_BuiltData" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap_BuiltData.uasset" SILENT=true
+[2021.01.07-03.03.09:761][943]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/FirstMap_BuiltDataF435089F46D54961227DF98D2C2D8936.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap_BuiltData.uasset'
+[2021.01.07-03.03.09:799][943]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.07-03.03.09:799][943]LogContentValidation: Display: Validating World /Game/Maps/FirstMap.FirstMap
+[2021.01.07-03.03.09:799][943]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FirstMap_BuiltData.FirstMap_BuiltData
+[2021.01.07-03.03.11:534][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door_Door)
+[2021.01.07-03.03.12:528][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door_Doorframe)
+[2021.01.07-03.03.13:391][ 63]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Door_Door)
+[2021.01.07-03.03.23:449][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstMap" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.07-03.03.23:463][405]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.01.07-03.03.23:510][405]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/FirstMap39CC43E84687081D62338C8D73D4B020.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap.umap'
+[2021.01.07-03.03.23:536][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstMap_BuiltData" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap_BuiltData.uasset" SILENT=true
+[2021.01.07-03.03.24:249][405]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/FirstMap_BuiltData8D7562BC4B4BC1971FC5CD98D8B3738A.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap_BuiltData.uasset'
+[2021.01.07-03.03.24:296][405]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.07-03.03.24:296][405]LogContentValidation: Display: Validating World /Game/Maps/FirstMap.FirstMap
+[2021.01.07-03.03.24:296][405]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FirstMap_BuiltData.FirstMap_BuiltData
+[2021.01.07-03.03.24:978][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door_Door)
+[2021.01.07-03.03.34:024][885]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.07-03.03.34:044][885]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.07-03.03.34:044][885]PIE: New page: PIE session: FirstMap (Jan. 6, 2021, 5:03:34 p.m.)
+[2021.01.07-03.03.34:044][885]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstMap
+[2021.01.07-03.03.34:050][885]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005529s)
+[2021.01.07-03.03.34:051][885]LogAIModule: Creating AISystem for world FirstMap
+[2021.01.07-03.03.34:051][885]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D2CBE9EC00), frame # 370885
+[2021.01.07-03.03.34:051][885]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D2DD3D4680), frame # 370885
+[2021.01.07-03.03.34:052][885]LogPlayLevel: PIE: World Init took: (0.001657s)
+[2021.01.07-03.03.34:052][885]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstMap.FirstMap to /Game/Maps/UEDPIE_0_FirstMap.FirstMap (0.007345s)
+[2021.01.07-03.03.34:066][885]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2021.01.07-03.03.34:069][885]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.07-03.03.34:069][885]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.07-03.03.34:069][885]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.07-03.03.34:069][885]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.07-03.03.34:069][885]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.07-03.03.34:069][885]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.07-03.03.34:069][885]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.07-03.03.34:069][885]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.07-03.03.34:069][885]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.07-03.03.34:070][885]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.07-03.03.34:075][885]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.07-03.03.34:075][885]LogAudioMixer: Display: 1: FrontRight
+[2021.01.07-03.03.34:101][885]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.07-03.03.34:102][885]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.07-03.03.34:102][885]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.07-03.03.34:102][885]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.07-03.03.34:103][885]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.07-03.03.34:119][885]LogInit: FAudioDevice initialized.
+[2021.01.07-03.03.34:129][885]LogLoad: Game class is 'GameModeBase'
+[2021.01.07-03.03.34:134][885]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2021.01.06-22.03.34
+[2021.01.07-03.03.34:134][885]LogWorld: Bringing up level for play took: 0.003625
+[2021.01.07-03.03.34:134][885]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2021.01.07-03.03.34:138][885]PIE: Server logged in
+[2021.01.07-03.03.34:139][885]PIE: Play in editor total start time 0.101 seconds.
+[2021.01.07-03.03.52:084][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.07-03.03.52:084][807]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstMap
+[2021.01.07-03.03.52:084][807]LogWorld: UWorld::CleanupWorld for FirstMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.07-03.03.52:085][807]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.07-03.03.52:095][807]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.07-03.03.52:097][807]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.07-03.03.52:112][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.07-03.03.52:138][807]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D2DD3D4680), frame # 371807
+[2021.01.07-03.03.52:138][807]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D2CBE9EC00), frame # 371807
+[2021.01.07-03.03.52:139][807]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2021.01.07-03.03.52:188][808]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2021.01.07-03.03.55:431][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstMap" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.07-03.03.55:447][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2021.01.07-03.03.55:495][ 21]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/FirstMap4A66DF2B429F4B0D512F329D07930C17.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap.umap'
+[2021.01.07-03.03.55:519][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstMap_BuiltData" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap_BuiltData.uasset" SILENT=true
+[2021.01.07-03.03.56:224][ 21]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/FirstMap_BuiltData7EA10A0B44DE4495028888B2B39E981C.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap_BuiltData.uasset'
+[2021.01.07-03.03.56:280][ 21]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.07-03.03.56:280][ 21]LogContentValidation: Display: Validating World /Game/Maps/FirstMap.FirstMap
+[2021.01.07-03.03.56:280][ 21]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FirstMap_BuiltData.FirstMap_BuiltData
+[2021.01.07-03.04.34:213][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstMap" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.07-03.04.34:255][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.01.07-03.04.34:314][207]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/FirstMapB3EBCE7049D0E3511CBDDC85388E6356.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap.umap'
+[2021.01.07-03.04.34:339][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstMap_BuiltData" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap_BuiltData.uasset" SILENT=true
+[2021.01.07-03.04.35:070][207]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/FirstMap_BuiltDataE3CFEFF841A1F1599EAAB4B1BA360C05.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap_BuiltData.uasset'
+[2021.01.07-03.04.35:152][207]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.07-03.04.35:152][207]LogContentValidation: Display: Validating World /Game/Maps/FirstMap.FirstMap
+[2021.01.07-03.04.35:152][207]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FirstMap_BuiltData.FirstMap_BuiltData
+[2021.01.07-03.05.39:155][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstMap" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.07-03.05.39:181][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.01.07-03.05.39:237][ 43]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/FirstMap396998BD42EF58468F8D35BC858E9D1E.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap.umap'
+[2021.01.07-03.05.39:263][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstMap_BuiltData" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap_BuiltData.uasset" SILENT=true
+[2021.01.07-03.05.39:922][ 43]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/FirstMap_BuiltData4DB0E939472CBB9DB4F1CFB15AF1C531.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap_BuiltData.uasset'
+[2021.01.07-03.05.39:968][ 43]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.07-03.05.39:969][ 43]LogContentValidation: Display: Validating World /Game/Maps/FirstMap.FirstMap
+[2021.01.07-03.05.39:969][ 43]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FirstMap_BuiltData.FirstMap_BuiltData
+[2021.01.07-03.05.43:522][261]MapCheck: New page: Map Check
+[2021.01.07-03.05.43:543][261]LightingResults: New page: Lighting Build - Jan. 6, 2021, 5:05:43 p.m.
+[2021.01.07-03.05.43:575][261]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.01.07-03.05.43:585][261]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.01.07-03.05.43:585][261]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.01.07-03.05.43:590][261]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.01.07-03.05.43:591][261]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18572
+[2021.01.07-03.06.02:241][261]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.01.07-03.06.02:242][261]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.01.07-03.06.02:242][261]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.01.07-03.06.02:242][261]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.01.07-03.06.02:242][261]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.01.07-03.06.02:242][261]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.01.07-03.06.02:944][261]LogEditorBuildUtils: Build time 0:19
+[2021.01.07-03.06.03:075][262]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2021.01.07-03.06.55:221][190]Job is a success!
+[2021.01.07-03.06.55:911][191]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.019s
+[2021.01.07-03.06.55:911][191]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.01.07-03.06.55:911][191]LogVolumetricLightmapImport:      BrickData (all levels) 0.1Mb
+[2021.01.07-03.06.55:911][191]LogVolumetricLightmapImport:      Bricks at depth
+[2021.01.07-03.06.55:911][191]LogVolumetricLightmapImport:          0: 5.3% covering 100.0% of volume
+[2021.01.07-03.06.55:911][191]LogVolumetricLightmapImport:          1: 5.3% covering 1.6% of volume
+[2021.01.07-03.06.55:911][191]LogVolumetricLightmapImport:          2: 89.5% covering 0.4% of volume
+[2021.01.07-03.06.55:911][191]LogVolumetricLightmapImport:      Bricks in each level
+[2021.01.07-03.06.55:911][191]LogVolumetricLightmapImport:          FirstMap 			 19 bricks 	 100.0% (Persistent Level)
+[2021.01.07-03.07.00:353][191]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2021.01.07-03.07.00:353][191]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2021.01.07-03.07.00:353][191]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2021.01.07-03.07.00:353][191]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2021.01.07-03.07.00:353][191]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2021.01.07-03.07.00:353][191]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2021.01.07-03.07.00:353][191]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2021.01.07-03.07.00:353][191]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2021.01.07-03.07.00:353][191]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2021.01.07-03.07.00:353][191]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2021.01.07-03.07.00:554][191]LogTexture: Display: Building textures: ShadowMapTexture2D_21 (G8, 32X32)
+[2021.01.07-03.07.00:763][191]LogTexture: Display: Building textures: ShadowMapTexture2D_19 (BGRA8, 1024X1024)
+[2021.01.07-03.07.00:763][191]LogTexture: Display: Building textures: ShadowMapTexture2D_18 (BGRA8, 1024X1024)
+[2021.01.07-03.07.00:764][191]LogTexture: Display: Building textures: ShadowMapTexture2D_20 (BGRA8, 1024X1024)
+[2021.01.07-03.07.00:782][191]LogStaticLightingSystem: FirstMap_BuiltData storing lightmap data for 50 meshes in 15 LightmapResourceClusters (3.3 Meshes per cluster).
+[2021.01.07-03.07.00:805][191]Lightmass on PHILNG: 56.0 sec total, 352 ms importing, 40 ms setup, 7.50 sec photons, 48.0 sec processing, 0 ms extra exporting [50/50 mappings]. Threads: 8:48 min total, 3:34 min processing.
+[2021.01.07-03.07.00:814][191]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2021.01.07-03.07.00:849][191]LogStaticLightingSystem: Illumination: 1:17 min (3.63 sec encoding lightmaps, 414 ms encoding shadowmaps)
+[2021.01.07-03.07.00:849][191]LogStaticLightingSystem: Lightmap texture memory:  14.0 MB (14.0 MB streaming, 0.0 MB non-streaming), 10 textures
+[2021.01.07-03.07.00:849][191]LogStaticLightingSystem: Shadowmap texture memory: 16.0 MB (16.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2021.01.07-03.07.29:314][191]DumpUnbuiltLightIteractions
+[2021.01.07-03.07.29:314][191]Lights with unbuilt interactions: 0
+[2021.01.07-03.07.29:314][191]
+[2021.01.07-03.07.29:314][191]Primitives with unbuilt interactions: 0
+[2021.01.07-03.07.29:402][192]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.01.07-03.07.29:402][192]MapCheck: New page: FirstMap - Jan. 6, 2021, 5:07:29 p.m.
+[2021.01.07-03.07.29:405][192]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.815ms to complete.
+[2021.01.07-03.07.32:815][207]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.07-03.07.32:841][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.07-03.07.32:841][207]PIE: New page: PIE session: FirstMap (Jan. 6, 2021, 5:07:32 p.m.)
+[2021.01.07-03.07.32:871][207]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstMap
+[2021.01.07-03.07.32:879][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007677s)
+[2021.01.07-03.07.32:880][207]LogAIModule: Creating AISystem for world FirstMap
+[2021.01.07-03.07.32:880][207]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D28E9A5A00), frame # 378207
+[2021.01.07-03.07.32:880][207]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D2EEE44B80), frame # 378207
+[2021.01.07-03.07.32:880][207]LogPlayLevel: PIE: World Init took: (0.001392s)
+[2021.01.07-03.07.32:880][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstMap.FirstMap to /Game/Maps/UEDPIE_0_FirstMap.FirstMap (0.009307s)
+[2021.01.07-03.07.32:897][207]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2021.01.07-03.07.32:902][207]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.07-03.07.32:902][207]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.07-03.07.32:902][207]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.07-03.07.32:902][207]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.07-03.07.32:902][207]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.07-03.07.32:902][207]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.07-03.07.32:902][207]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.07-03.07.32:902][207]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.07-03.07.32:903][207]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.07-03.07.32:903][207]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.07-03.07.32:908][207]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.07-03.07.32:908][207]LogAudioMixer: Display: 1: FrontRight
+[2021.01.07-03.07.32:941][207]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.07-03.07.32:941][207]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.07-03.07.32:941][207]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.07-03.07.32:941][207]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.07-03.07.32:942][207]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.07-03.07.32:970][207]LogInit: FAudioDevice initialized.
+[2021.01.07-03.07.32:984][207]LogLoad: Game class is 'GameModeBase'
+[2021.01.07-03.07.32:988][207]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2021.01.06-22.07.32
+[2021.01.07-03.07.32:988][207]LogWorld: Bringing up level for play took: 0.002671
+[2021.01.07-03.07.32:989][207]LogOnline: OSS: Creating online subsystem instance for: :Context_66
+[2021.01.07-03.07.32:992][207]PIE: Server logged in
+[2021.01.07-03.07.32:993][207]PIE: Play in editor total start time 0.16 seconds.
+[2021.01.07-03.08.08:554][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.07-03.08.08:554][339]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstMap
+[2021.01.07-03.08.08:554][339]LogWorld: UWorld::CleanupWorld for FirstMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.07-03.08.08:555][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.07-03.08.08:564][339]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.07-03.08.08:566][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.07-03.08.08:583][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.07-03.08.08:621][339]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D2EEE44B80), frame # 380339
+[2021.01.07-03.08.08:621][339]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D28E9A5A00), frame # 380339
+[2021.01.07-03.08.08:622][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2021.01.07-03.08.08:673][340]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2021.01.07-03.09.17:442][ 99]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.07-03.11.11:628][ 18]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Downloads/834px-Fifo_queue.svg.png)
+[2021.01.07-03.11.11:648][ 18]LogTexture: Display: Building textures: 834px-Fifo_queue_svg (BGRA8, 834X768)
+[2021.01.07-03.11.26:857][830]LogMaterial: Display: Missing cached shader map for material M_Decal_Queue, compiling. 
+[2021.01.07-03.11.26:907][831]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2021.01.07-03.11.26:907][831]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2021.01.07-03.11.26:907][831]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2021.01.07-03.11.26:907][831]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2021.01.07-03.11.26:907][831]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2021.01.07-03.11.26:907][831]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2021.01.07-03.11.26:907][831]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.01.07-03.11.26:907][831]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2021.01.07-03.11.31:094][995]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/LogCabin/M_Decal_Queue.M_Decal_Queue
+[2021.01.07-03.11.31:098][995]LogMaterial: Display: Missing cached shader map for material M_Decal_Queue, compiling. 
+[2021.01.07-03.11.31:145][995]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.01.07-03.11.31:145][995]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.01.07-03.11.31:145][995]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
+[2021.01.07-03.11.31:145][995]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2021.01.07-03.11.31:429][995]LogMaterial: Display: Missing cached shader map for material M_Decal_Queue, compiling. 
+[2021.01.07-03.11.31:446][995]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2021.01.07-03.11.31:447][995]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2021.01.07-03.11.31:464][995]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.01.07-03.11.32:003][998]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 11
+[2021.01.07-03.11.32:190][  2]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2021.01.07-03.11.32:647][ 12]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 9
+[2021.01.07-03.11.33:449][ 15]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.01.07-03.11.33:449][ 15]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2021.01.07-03.11.33:449][ 15]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2021.01.07-03.11.33:449][ 15]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2021.01.07-03.11.33:580][ 15]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.01.07-03.11.33:967][ 25]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2021.01.07-03.11.34:579][ 40]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2021.01.07-03.11.34:641][ 40]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.01.07-03.11.35:273][ 55]LogMaterial: Display: Missing cached shader map for material M_Decal_Queue, compiling. 
+[2021.01.07-03.11.35:291][ 55]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.01.07-03.11.35:291][ 55]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2021.01.07-03.11.35:291][ 55]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
+[2021.01.07-03.11.35:294][ 55]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2021.01.07-03.11.35:323][ 55]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.01.07-03.11.35:334][ 55]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2021.01.07-03.11.35:503][ 57]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 14
+[2021.01.07-03.11.35:846][ 67]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 13
+[2021.01.07-03.11.35:925][ 69]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2021.01.07-03.11.36:205][ 76]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2021.01.07-03.11.36:374][ 76]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2021.01.07-03.11.36:748][ 83]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 9
+[2021.01.07-03.11.37:398][ 97]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 8
+[2021.01.07-03.11.37:399][ 97]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2021.01.07-03.11.37:832][106]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2021.01.07-03.11.37:940][108]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2021.01.07-03.11.38:483][120]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2021.01.07-03.11.38:483][120]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2021.01.07-03.11.38:530][121]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2021.01.07-03.11.38:560][121]LogMaterial: Display: Missing cached shader map for material M_Decal_Queue, compiling. 
+[2021.01.07-03.11.38:782][124]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 10
+[2021.01.07-03.11.38:782][124]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 9
+[2021.01.07-03.11.39:185][135]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2021.01.07-03.11.39:393][139]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 7
+[2021.01.07-03.11.39:442][140]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2021.01.07-03.11.39:936][152]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2021.01.07-03.11.40:109][155]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2021.01.07-03.11.40:208][157]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2021.01.07-03.11.40:509][163]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2021.01.07-03.11.40:833][169]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2021.01.07-03.11.41:864][193]LogMaterial: Display: Missing cached shader map for material M_Decal_Queue, compiling. 
+[2021.01.07-03.11.41:880][193]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 9
+[2021.01.07-03.11.41:880][193]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2021.01.07-03.11.41:880][193]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2021.01.07-03.11.41:880][193]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2021.01.07-03.11.42:082][197]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2021.01.07-03.11.42:353][205]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2021.01.07-03.11.42:572][211]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.01.07-03.11.42:782][216]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2021.01.07-03.11.43:383][229]LogMaterial: Display: Missing cached shader map for material M_Decal_Queue, compiling. 
+[2021.01.07-03.11.43:529][231]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2021.01.07-03.11.43:972][242]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 8
+[2021.01.07-03.11.44:047][244]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2021.01.07-03.11.44:414][252]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2021.01.07-03.11.44:589][257]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2021.01.07-03.11.44:633][258]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2021.01.07-03.11.45:097][269]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.01.07-03.11.45:200][271]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2021.01.07-03.11.45:526][279]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2021.01.07-03.11.45:529][279]LogMaterial: Display: Missing cached shader map for material M_Decal_Queue, compiling. 
+[2021.01.07-03.11.46:134][294]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 9
+[2021.01.07-03.11.46:410][300]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 8
+[2021.01.07-03.11.46:445][301]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2021.01.07-03.11.46:942][316]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2021.01.07-03.11.46:971][317]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2021.01.07-03.11.46:972][317]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2021.01.07-03.11.47:175][324]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.01.07-03.11.47:280][327]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2021.01.07-03.11.47:543][334]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2021.01.07-03.11.48:790][378]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.01.07-03.11.48:790][378]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.01.07-03.11.48:790][378]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2021.01.07-03.11.48:790][378]MaterialEditorStats: Texture samplers: 3/16
+[2021.01.07-03.11.48:790][378]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.01.07-03.11.48:790][378]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.01.07-03.11.51:518][531]LogMaterial: Display: Missing cached shader map for material M_Decal_Queue, compiling. 
+[2021.01.07-03.11.51:531][531]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.01.07-03.11.51:531][531]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.01.07-03.11.51:531][531]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.01.07-03.11.51:531][531]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.01.07-03.11.51:531][531]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.01.07-03.11.51:531][531]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.01.07-03.11.51:531][531]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.01.07-03.11.51:531][531]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.01.07-03.11.52:454][562]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2021.01.07-03.11.53:210][585]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.01.07-03.11.53:210][585]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.01.07-03.11.53:210][585]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2021.01.07-03.11.53:210][585]MaterialEditorStats: Texture samplers: 3/16
+[2021.01.07-03.11.53:210][585]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.01.07-03.11.53:210][585]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.01.07-03.11.54:537][669]LogMaterial: Display: Missing cached shader map for material M_Decal_Queue, compiling. 
+[2021.01.07-03.11.54:550][669]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.01.07-03.11.54:550][669]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.01.07-03.11.54:550][669]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.01.07-03.11.54:550][669]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.01.07-03.11.54:550][669]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.01.07-03.11.54:550][669]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.01.07-03.11.54:550][669]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.01.07-03.11.54:550][669]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.01.07-03.11.55:438][699]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.01.07-03.11.56:153][726]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.01.07-03.11.56:153][726]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.01.07-03.11.56:153][726]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2021.01.07-03.11.56:154][726]MaterialEditorStats: Texture samplers: 3/16
+[2021.01.07-03.11.56:154][726]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.01.07-03.11.56:154][726]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.01.07-03.11.56:358][740]LogMaterial: Display: Missing cached shader map for material M_Decal_Queue, compiling. 
+[2021.01.07-03.11.56:399][741]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.01.07-03.11.56:399][741]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.01.07-03.11.56:399][741]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.01.07-03.11.56:399][741]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.01.07-03.11.56:399][741]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.01.07-03.11.56:399][741]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.01.07-03.11.56:399][741]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.01.07-03.11.56:399][741]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.01.07-03.11.57:275][772]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.01.07-03.11.57:953][799]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.01.07-03.11.57:953][799]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.01.07-03.11.57:953][799]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2021.01.07-03.11.57:953][799]MaterialEditorStats: Texture samplers: 3/16
+[2021.01.07-03.11.57:953][799]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.01.07-03.11.57:953][799]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.01.07-03.12.10:051][612]LogMaterial: Display: Missing cached shader map for material M_Decal_Queue, compiling. 
+[2021.01.07-03.12.10:086][613]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.01.07-03.12.10:086][613]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.01.07-03.12.10:086][613]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.01.07-03.12.10:086][613]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.01.07-03.12.10:086][613]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.01.07-03.12.10:086][613]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.01.07-03.12.10:086][613]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.01.07-03.12.10:086][613]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.01.07-03.12.10:987][646]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.01.07-03.12.11:683][672]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.01.07-03.12.11:683][672]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.01.07-03.12.11:683][672]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2021.01.07-03.12.11:683][672]MaterialEditorStats: Texture samplers: 3/16
+[2021.01.07-03.12.11:683][672]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.01.07-03.12.11:684][672]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.01.07-03.12.12:522][729]LogMaterial: Display: Missing cached shader map for material M_Decal_Queue, compiling. 
+[2021.01.07-03.12.12:523][729]LogMaterial: Warning: /Engine/Transient.M_Decal_Queue (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.07-03.12.12:523][729]LogMaterial: Display: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2021.01.07-03.12.12:533][729]LogMaterial: Display: Missing cached shader map for material M_Decal_Queue, compiling. 
+[2021.01.07-03.12.12:534][729]LogMaterial: Warning: /Engine/Transient.M_Decal_Queue (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.07-03.12.12:534][729]LogMaterial: Display: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2021.01.07-03.12.12:537][729]LogMaterial: Display: Missing cached shader map for material M_Decal_Queue, compiling. 
+[2021.01.07-03.12.12:538][729]LogMaterial: Warning: /Engine/Transient.M_Decal_Queue (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.07-03.12.12:538][729]LogMaterial: Display: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2021.01.07-03.12.12:546][729]MaterialEditorStats: Error: [SM5] Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2021.01.07-03.12.19:389][182]LogMaterialEditor: Saving and Compiling material M_Decal_Queue
+[2021.01.07-03.12.23:072][182]LogSlate: Window 'Warning: Compilation errors in this Material' being destroyed
+[2021.01.07-03.12.24:212][182]LogMaterial: Display: Missing cached shader map for material M_Decal_Queue, compiling. 
+[2021.01.07-03.12.24:213][182]LogMaterial: Warning: /Engine/Transient.M_Decal_Queue (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.07-03.12.24:213][182]LogMaterial: Display: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2021.01.07-03.12.24:241][182]LogMaterial: Display: Missing cached shader map for material M_Decal_Queue, compiling. 
+[2021.01.07-03.12.24:242][182]LogMaterial: Warning: /Game/LogCabin/M_Decal_Queue.M_Decal_Queue (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.07-03.12.24:242][182]LogMaterial: Display: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2021.01.07-03.12.24:261][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.01.07-03.12.24:277][182]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2021.01.07-03.12.24:291][182]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.01.07-03.12.24:359][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LogCabin/M_Decal_Queue" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/LogCabin/M_Decal_Queue.uasset" SILENT=true
+[2021.01.07-03.12.24:370][182]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/M_Decal_Queue954703DE42F93CC1BDE08BAC5C27C4C5.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/LogCabin/M_Decal_Queue.uasset'
+[2021.01.07-03.12.24:387][182]AssetCheck: New page: Asset Save: M_Decal_Queue
+[2021.01.07-03.12.24:387][182]LogContentValidation: Display: Validating Material /Game/LogCabin/M_Decal_Queue.M_Decal_Queue
+[2021.01.07-03.12.27:265][367]LogSlate: Window 'M_Decal_Queue' being destroyed
+[2021.01.07-03.12.27:341][367]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2021.01.07-03.12.27:341][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.07-03.13.03:077][684]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.07-03.13.03:098][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.07-03.13.03:098][684]PIE: New page: PIE session: FirstMap (Jan. 6, 2021, 5:13:03 p.m.)
+[2021.01.07-03.13.03:131][684]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstMap
+[2021.01.07-03.13.03:142][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010310s)
+[2021.01.07-03.13.03:144][684]LogAIModule: Creating AISystem for world FirstMap
+[2021.01.07-03.13.03:144][684]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D313FED400), frame # 391684
+[2021.01.07-03.13.03:144][684]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D313F73B00), frame # 391684
+[2021.01.07-03.13.03:145][684]LogPlayLevel: PIE: World Init took: (0.003169s)
+[2021.01.07-03.13.03:145][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstMap.FirstMap to /Game/Maps/UEDPIE_0_FirstMap.FirstMap (0.013848s)
+[2021.01.07-03.13.03:161][684]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.01.07-03.13.03:168][684]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.07-03.13.03:168][684]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.07-03.13.03:168][684]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.07-03.13.03:168][684]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.07-03.13.03:168][684]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.07-03.13.03:168][684]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.07-03.13.03:168][684]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.07-03.13.03:168][684]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.07-03.13.03:169][684]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.07-03.13.03:169][684]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.07-03.13.03:175][684]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.07-03.13.03:175][684]LogAudioMixer: Display: 1: FrontRight
+[2021.01.07-03.13.03:202][684]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.07-03.13.03:203][684]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.07-03.13.03:203][684]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.07-03.13.03:203][684]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.07-03.13.03:204][684]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.07-03.13.03:222][684]LogInit: FAudioDevice initialized.
+[2021.01.07-03.13.03:237][684]LogLoad: Game class is 'GameModeBase'
+[2021.01.07-03.13.03:240][684]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2021.01.06-22.13.03
+[2021.01.07-03.13.03:241][684]LogWorld: Bringing up level for play took: 0.002395
+[2021.01.07-03.13.03:241][684]LogOnline: OSS: Creating online subsystem instance for: :Context_69
+[2021.01.07-03.13.03:244][684]PIE: Server logged in
+[2021.01.07-03.13.03:246][684]PIE: Play in editor total start time 0.153 seconds.
+[2021.01.07-03.13.08:495][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.07-03.13.08:495][243]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstMap
+[2021.01.07-03.13.08:495][243]LogWorld: UWorld::CleanupWorld for FirstMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.07-03.13.08:495][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.07-03.13.08:511][243]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.07-03.13.08:513][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.07-03.13.08:538][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.07-03.13.08:575][243]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D313F73B00), frame # 392243
+[2021.01.07-03.13.08:575][243]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D313FED400), frame # 392243
+[2021.01.07-03.13.08:578][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2021.01.07-03.13.08:634][244]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2021.01.07-03.13.12:096][598]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/LogCabin/M_Decal_Queue.M_Decal_Queue
+[2021.01.07-03.13.12:106][598]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.01.07-03.13.12:107][598]LogMaterial: Warning: /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.07-03.13.12:107][598]LogMaterial: Display: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2021.01.07-03.13.12:221][598]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.01.07-03.13.12:221][598]LogMaterial: Warning: /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.07-03.13.12:221][598]LogMaterial: Display: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2021.01.07-03.13.12:223][598]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.01.07-03.13.12:224][598]LogMaterial: Warning: /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.07-03.13.12:224][598]LogMaterial: Display: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2021.01.07-03.13.12:232][598]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.01.07-03.13.12:254][598]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.01.07-03.13.12:254][598]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.01.07-03.13.12:254][598]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2021.01.07-03.13.12:254][598]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2021.01.07-03.13.12:279][598]MaterialEditorStats: Error: [SM5] Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2021.01.07-03.13.32:747][774]LogSlate: Window 'M_Decal_Queue' being destroyed
+[2021.01.07-03.13.32:831][774]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2021.01.07-03.13.32:831][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.07-03.13.34:422][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstMap" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.07-03.13.34:442][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2021.01.07-03.13.34:495][947]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/FirstMap4700C0524A8D41E19B4594815E06C5C3.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap.umap'
+[2021.01.07-03.13.34:521][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstMap_BuiltData" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap_BuiltData.uasset" SILENT=true
+[2021.01.07-03.13.35:202][947]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/FirstMap_BuiltData6D98EC104BDB9262FFB4CDBFEB59EDEF.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap_BuiltData.uasset'
+[2021.01.07-03.13.35:246][947]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.07-03.13.35:246][947]LogContentValidation: Display: Validating World /Game/Maps/FirstMap.FirstMap
+[2021.01.07-03.13.35:246][947]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FirstMap_BuiltData.FirstMap_BuiltData
+[2021.01.07-03.13.44:319][689]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.07-03.13.44:362][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.07-03.13.44:362][689]PIE: New page: PIE session: FirstMap (Jan. 6, 2021, 5:13:44 p.m.)
+[2021.01.07-03.13.44:363][689]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstMap
+[2021.01.07-03.13.44:382][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019623s)
+[2021.01.07-03.13.44:386][689]LogAIModule: Creating AISystem for world FirstMap
+[2021.01.07-03.13.44:386][689]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D1E7217E00), frame # 394689
+[2021.01.07-03.13.44:386][689]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D2F6F7D580), frame # 394689
+[2021.01.07-03.13.44:387][689]LogPlayLevel: PIE: World Init took: (0.004732s)
+[2021.01.07-03.13.44:388][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstMap.FirstMap to /Game/Maps/UEDPIE_0_FirstMap.FirstMap (0.024995s)
+[2021.01.07-03.13.44:433][689]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.01.07-03.13.44:438][689]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.07-03.13.44:438][689]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.07-03.13.44:438][689]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.07-03.13.44:438][689]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.07-03.13.44:438][689]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.07-03.13.44:438][689]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.07-03.13.44:438][689]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.07-03.13.44:438][689]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.07-03.13.44:439][689]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.07-03.13.44:439][689]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.07-03.13.44:452][689]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.07-03.13.44:452][689]LogAudioMixer: Display: 1: FrontRight
+[2021.01.07-03.13.44:519][689]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.07-03.13.44:520][689]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.07-03.13.44:520][689]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.07-03.13.44:520][689]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.07-03.13.44:522][689]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.07-03.13.44:569][689]LogInit: FAudioDevice initialized.
+[2021.01.07-03.13.44:594][689]LogLoad: Game class is 'GameModeBase'
+[2021.01.07-03.13.44:604][689]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2021.01.06-22.13.44
+[2021.01.07-03.13.44:605][689]LogWorld: Bringing up level for play took: 0.007968
+[2021.01.07-03.13.44:606][689]LogOnline: OSS: Creating online subsystem instance for: :Context_71
+[2021.01.07-03.13.44:615][689]PIE: Server logged in
+[2021.01.07-03.13.44:618][689]PIE: Play in editor total start time 0.262 seconds.
+[2021.01.07-03.14.00:634][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.07-03.14.00:634][638]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstMap
+[2021.01.07-03.14.00:634][638]LogWorld: UWorld::CleanupWorld for FirstMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.07-03.14.00:635][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.07-03.14.00:646][638]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.07-03.14.00:648][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.07-03.14.00:668][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.07-03.14.00:701][638]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D2F6F7D580), frame # 395638
+[2021.01.07-03.14.00:701][638]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D1E7217E00), frame # 395638
+[2021.01.07-03.14.00:703][638]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2021.01.07-03.14.00:752][639]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2021.01.07-03.14.14:434][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstMap" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.07-03.14.14:482][326]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2021.01.07-03.14.14:604][326]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/FirstMapF815256641E89A07C75946A8D89AA536.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap.umap'
+[2021.01.07-03.14.14:657][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstMap_BuiltData" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap_BuiltData.uasset" SILENT=true
+[2021.01.07-03.14.15:609][326]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/FirstMap_BuiltDataCBB4C36947F96D08B407C7A0F9363F4D.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap_BuiltData.uasset'
+[2021.01.07-03.14.15:648][326]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.07-03.14.15:648][326]LogContentValidation: Display: Validating World /Game/Maps/FirstMap.FirstMap
+[2021.01.07-03.14.15:648][326]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FirstMap_BuiltData.FirstMap_BuiltData
+[2021.01.07-03.14.31:527][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.01.07-03.14.32:970][208]LogSlate: Window 'Save Content' being destroyed
+[2021.01.07-03.14.33:094][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LogCabin/834px-Fifo_queue_svg" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/LogCabin/834px-Fifo_queue_svg.uasset" SILENT=true
+[2021.01.07-03.14.33:144][208]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/834px-Fifo_queue_svgA68FE9DE46B0F9A58E0E8CA39C5EA2EB.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/LogCabin/834px-Fifo_queue_svg.uasset'
+[2021.01.07-03.14.33:357][208]LogSlate: Window 'UE4EscapeRoom - Unreal Editor' being destroyed
+[2021.01.07-03.14.33:359][208]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.01.07-03.14.34:214][208]AssetCheck: New page: Asset Save: 834px-Fifo_queue_svg
+[2021.01.07-03.14.34:214][208]LogContentValidation: Display: Validating Texture2D /Game/LogCabin/834px-Fifo_queue_svg.834px-Fifo_queue_svg
+[2021.01.07-03.14.34:219][209]Cmd: QUIT_EDITOR
+[2021.01.07-03.14.34:220][209]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.01.07-03.14.34:232][209]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.01.07-03.14.35:252][209]LogExit: Preparing to exit.
+[2021.01.07-03.14.36:258][209]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2021.01.07-03.14.36:259][209]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.01.07-03.14.36:259][209]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.01.07-03.14.36:310][209]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.01.07-03.14.36:329][209]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.01.07-03.14.36:332][209]LogExit: Editor shut down
+[2021.01.07-03.14.36:337][209]LogExit: Transaction tracking system shut down
+[2021.01.07-03.14.36:716][209]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001D1F4425BC0), frame # 397209
+[2021.01.07-03.14.36:716][209]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D1F4382AC0), frame # 397209
+[2021.01.07-03.14.36:719][209]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D1F43D1C00), frame # 397209
+[2021.01.07-03.14.37:000][209]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D1FA009A80), frame # 397209
+[2021.01.07-03.14.37:000][209]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D1F9ED0C00), frame # 397209
+[2021.01.07-03.14.37:115][209]LogExit: Object subsystem successfully closed.
+[2021.01.07-03.14.37:168][209]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.01.07-03.14.37:267][209]LogModuleManager: Shutting down and abandoning module UE4EscapeRoom (838)
+[2021.01.07-03.14.37:267][209]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (806)
+[2021.01.07-03.14.37:268][209]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (802)
+[2021.01.07-03.14.37:268][209]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (800)
+[2021.01.07-03.14.37:268][209]LogModuleManager: Shutting down and abandoning module Voice (798)
+[2021.01.07-03.14.37:269][209]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (796)
+[2021.01.07-03.14.37:269][209]LogModuleManager: Shutting down and abandoning module AddContentDialog (794)
+[2021.01.07-03.14.37:272][209]LogModuleManager: Shutting down and abandoning module WidgetCarousel (793)
+[2021.01.07-03.14.37:272][209]LogModuleManager: Shutting down and abandoning module EditorWidgets (790)
+[2021.01.07-03.14.37:272][209]LogModuleManager: Shutting down and abandoning module CollectionManager (788)
+[2021.01.07-03.14.37:273][209]LogModuleManager: Shutting down and abandoning module SceneOutliner (786)
+[2021.01.07-03.14.37:273][209]LogModuleManager: Shutting down and abandoning module StatsViewer (784)
+[2021.01.07-03.14.37:275][209]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (782)
+[2021.01.07-03.14.37:275][209]LogModuleManager: Shutting down and abandoning module FoliageEdit (780)
+[2021.01.07-03.14.37:276][209]LogModuleManager: Shutting down and abandoning module LandscapeEditor (778)
+[2021.01.07-03.14.37:280][209]LogModuleManager: Shutting down and abandoning module MeshPaintMode (776)
+[2021.01.07-03.14.37:281][209]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (774)
+[2021.01.07-03.14.37:281][209]LogModuleManager: Shutting down and abandoning module ActorPickerMode (772)
+[2021.01.07-03.14.37:281][209]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (770)
+[2021.01.07-03.14.37:283][209]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (768)
+[2021.01.07-03.14.37:284][209]LogModuleManager: Shutting down and abandoning module AutomationWorker (766)
+[2021.01.07-03.14.37:284][209]LogModuleManager: Shutting down and abandoning module SteamVREditor (764)
+[2021.01.07-03.14.37:284][209]LogModuleManager: Shutting down and abandoning module OculusMR (762)
+[2021.01.07-03.14.37:285][209]LogModuleManager: Shutting down and abandoning module GooglePADEditor (760)
+[2021.01.07-03.14.37:285][209]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (758)
+[2021.01.07-03.14.37:285][209]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (756)
+[2021.01.07-03.14.37:287][209]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (754)
+[2021.01.07-03.14.37:287][209]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (752)
+[2021.01.07-03.14.37:289][209]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (750)
+[2021.01.07-03.14.37:291][209]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (748)
+[2021.01.07-03.14.37:291][209]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (746)
+[2021.01.07-03.14.37:291][209]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (744)
+[2021.01.07-03.14.37:291][209]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (742)
+[2021.01.07-03.14.37:291][209]LogModuleManager: Shutting down and abandoning module WebMMedia (740)
+[2021.01.07-03.14.37:291][209]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (738)
+[2021.01.07-03.14.37:293][209]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (736)
+[2021.01.07-03.14.37:294][209]LogModuleManager: Shutting down and abandoning module SequenceRecorder (735)
+[2021.01.07-03.14.37:294][209]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (732)
+[2021.01.07-03.14.37:294][209]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (730)
+[2021.01.07-03.14.37:294][209]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (728)
+[2021.01.07-03.14.37:294][209]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (726)
+[2021.01.07-03.14.37:294][209]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (724)
+[2021.01.07-03.14.37:294][209]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (722)
+[2021.01.07-03.14.37:294][209]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (720)
+[2021.01.07-03.14.37:294][209]LogModuleManager: Shutting down and abandoning module BlockoutToolsEditorPlugin (718)
+[2021.01.07-03.14.37:295][209]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (716)
+[2021.01.07-03.14.37:295][209]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (714)
+[2021.01.07-03.14.37:295][209]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (712)
+[2021.01.07-03.14.37:295][209]LogModuleManager: Shutting down and abandoning module PlanarCut (710)
+[2021.01.07-03.14.37:296][209]LogModuleManager: Shutting down and abandoning module CharacterAI (708)
+[2021.01.07-03.14.37:296][209]LogModuleManager: Shutting down and abandoning module TextureAlignMode (706)
+[2021.01.07-03.14.37:296][209]LogModuleManager: Shutting down and abandoning module BspMode (704)
+[2021.01.07-03.14.37:296][209]LogModuleManager: Shutting down and abandoning module PlacementMode (703)
+[2021.01.07-03.14.37:296][209]LogModuleManager: Shutting down and abandoning module GeometryMode (700)
+[2021.01.07-03.14.37:296][209]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (698)
+[2021.01.07-03.14.37:298][209]LogModuleManager: Shutting down and abandoning module SmartSnapping (696)
+[2021.01.07-03.14.37:298][209]LogModuleManager: Shutting down and abandoning module SessionServices (694)
+[2021.01.07-03.14.37:298][209]LogModuleManager: Shutting down and abandoning module MeshPaint (692)
+[2021.01.07-03.14.37:300][209]LogModuleManager: Shutting down and abandoning module ViewportSnapping (690)
+[2021.01.07-03.14.37:300][209]LogModuleManager: Shutting down and abandoning module ViewportInteraction (688)
+[2021.01.07-03.14.37:300][209]LogModuleManager: Shutting down and abandoning module ClothPainter (686)
+[2021.01.07-03.14.37:301][209]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (685)
+[2021.01.07-03.14.37:303][209]LogModuleManager: Shutting down and abandoning module LogVisualizer (682)
+[2021.01.07-03.14.37:306][209]LogModuleManager: Shutting down and abandoning module IntroTutorials (680)
+[2021.01.07-03.14.37:307][209]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (679)
+[2021.01.07-03.14.37:307][209]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (676)
+[2021.01.07-03.14.37:307][209]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (674)
+[2021.01.07-03.14.37:307][209]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (672)
+[2021.01.07-03.14.37:307][209]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (671)
+[2021.01.07-03.14.38:509][209]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (668)
+[2021.01.07-03.14.38:509][209]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (666)
+[2021.01.07-03.14.38:509][209]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (664)
+[2021.01.07-03.14.38:509][209]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (662)
+[2021.01.07-03.14.38:509][209]LogModuleManager: Shutting down and abandoning module TraceInsights (660)
+[2021.01.07-03.14.38:518][209]LogModuleManager: Shutting down and abandoning module TraceServices (659)
+[2021.01.07-03.14.38:520][209]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (656)
+[2021.01.07-03.14.38:521][209]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (654)
+[2021.01.07-03.14.38:521][209]LogModuleManager: Shutting down and abandoning module InputBindingEditor (652)
+[2021.01.07-03.14.38:521][209]LogModuleManager: Shutting down and abandoning module MergeActors (650)
+[2021.01.07-03.14.38:522][209]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (648)
+[2021.01.07-03.14.38:523][209]LogModuleManager: Shutting down and abandoning module LocalizationService (647)
+[2021.01.07-03.14.38:524][209]LogModuleManager: Shutting down and abandoning module HardwareTargeting (644)
+[2021.01.07-03.14.38:524][209]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (642)
+[2021.01.07-03.14.38:525][209]LogModuleManager: Shutting down and abandoning module UndoHistory (640)
+[2021.01.07-03.14.38:525][209]LogModuleManager: Shutting down and abandoning module XmlParser (638)
+[2021.01.07-03.14.38:525][209]LogModuleManager: Shutting down and abandoning module Blutility (636)
+[2021.01.07-03.14.38:525][209]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (634)
+[2021.01.07-03.14.38:525][209]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (633)
+[2021.01.07-03.14.38:526][209]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (630)
+[2021.01.07-03.14.38:527][209]LogModuleManager: Shutting down and abandoning module SettingsEditor (628)
+[2021.01.07-03.14.38:529][209]LogModuleManager: Shutting down and abandoning module ProjectLauncher (626)
+[2021.01.07-03.14.38:529][209]LogModuleManager: Shutting down and abandoning module SessionFrontend (624)
+[2021.01.07-03.14.38:530][209]LogModuleManager: Shutting down and abandoning module ProfilerClient (622)
+[2021.01.07-03.14.38:530][209]LogModuleManager: Shutting down and abandoning module DeviceManager (620)
+[2021.01.07-03.14.38:532][209]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (619)
+[2021.01.07-03.14.38:565][209]LogModuleManager: Shutting down and abandoning module AutomationController (616)
+[2021.01.07-03.14.38:565][209]LogModuleManager: Shutting down and abandoning module AutomationWindow (614)
+[2021.01.07-03.14.38:566][209]LogModuleManager: Shutting down and abandoning module Layers (612)
+[2021.01.07-03.14.38:569][209]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (610)
+[2021.01.07-03.14.38:569][209]LogModuleManager: Shutting down and abandoning module DetailCustomizations (608)
+[2021.01.07-03.14.38:569][209]LogModuleManager: Shutting down and abandoning module PackagesDialog (606)
+[2021.01.07-03.14.38:569][209]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (604)
+[2021.01.07-03.14.38:571][209]LogModuleManager: Shutting down and abandoning module Persona (602)
+[2021.01.07-03.14.38:573][209]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (601)
+[2021.01.07-03.14.38:573][209]LogModuleManager: Shutting down and abandoning module AnimGraph (599)
+[2021.01.07-03.14.38:573][209]LogModuleManager: Shutting down and abandoning module Kismet (596)
+[2021.01.07-03.14.38:576][209]LogModuleManager: Shutting down and abandoning module KismetWidgets (595)
+[2021.01.07-03.14.38:576][209]LogModuleManager: Shutting down and abandoning module GraphEditor (592)
+[2021.01.07-03.14.38:577][209]LogModuleManager: Shutting down and abandoning module StructViewer (590)
+[2021.01.07-03.14.38:577][209]LogModuleManager: Shutting down and abandoning module ClassViewer (588)
+[2021.01.07-03.14.38:580][209]LogModuleManager: Shutting down and abandoning module Toolbox (586)
+[2021.01.07-03.14.38:580][209]LogModuleManager: Shutting down and abandoning module ModuleUI (584)
+[2021.01.07-03.14.38:581][209]LogModuleManager: Shutting down and abandoning module OutputLog (582)
+[2021.01.07-03.14.38:588][209]LogModuleManager: Shutting down and abandoning module GammaUI (580)
+[2021.01.07-03.14.38:589][209]LogModuleManager: Shutting down and abandoning module Documentation (578)
+[2021.01.07-03.14.38:589][209]LogModuleManager: Shutting down and abandoning module LiveCoding (576)
+[2021.01.07-03.14.38:591][209]LogModuleManager: Shutting down and abandoning module LevelSequence (574)
+[2021.01.07-03.14.38:591][209]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (572)
+[2021.01.07-03.14.38:591][209]LogModuleManager: Shutting down and abandoning module MovieScene (570)
+[2021.01.07-03.14.38:591][209]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (568)
+[2021.01.07-03.14.38:592][209]LogModuleManager: Shutting down and abandoning module LauncherPlatform (566)
+[2021.01.07-03.14.38:592][209]LogModuleManager: Shutting down and abandoning module AnalyticsET (564)
+[2021.01.07-03.14.38:592][209]LogModuleManager: Shutting down and abandoning module PortalServices (562)
+[2021.01.07-03.14.38:592][209]LogModuleManager: Shutting down and abandoning module PortalRpc (560)
+[2021.01.07-03.14.38:592][209]LogModuleManager: Shutting down and abandoning module MessagingRpc (558)
+[2021.01.07-03.14.38:592][209]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (556)
+[2021.01.07-03.14.38:592][209]LogModuleManager: Shutting down and abandoning module AudioMixerCore (555)
+[2021.01.07-03.14.38:592][209]LogModuleManager: Shutting down and abandoning module AIModule (552)
+[2021.01.07-03.14.38:592][209]LogModuleManager: Shutting down and abandoning module GameplayDebugger (551)
+[2021.01.07-03.14.38:593][209]LogModuleManager: Shutting down and abandoning module AITestSuite (549)
+[2021.01.07-03.14.38:593][209]LogModuleManager: Shutting down and abandoning module NavigationSystem (547)
+[2021.01.07-03.14.38:593][209]LogModuleManager: Shutting down and abandoning module ProfilerService (544)
+[2021.01.07-03.14.38:678][209]LogModuleManager: Shutting down and abandoning module TaskGraph (542)
+[2021.01.07-03.14.38:679][209]LogModuleManager: Shutting down and abandoning module ScreenshotTools (540)
+[2021.01.07-03.14.38:679][209]LogModuleManager: Shutting down and abandoning module SynthesisEditor (538)
+[2021.01.07-03.14.38:679][209]LogModuleManager: Shutting down and abandoning module Synthesis (536)
+[2021.01.07-03.14.38:681][209]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (534)
+[2021.01.07-03.14.38:681][209]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (532)
+[2021.01.07-03.14.38:681][209]LogModuleManager: Shutting down and abandoning module OculusEditor (530)
+[2021.01.07-03.14.38:682][209]LogModuleManager: Shutting down and abandoning module OculusInput (528)
+[2021.01.07-03.14.38:682][209]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (526)
+[2021.01.07-03.14.38:682][209]LogModuleManager: Shutting down and abandoning module GooglePAD (524)
+[2021.01.07-03.14.38:682][209]LogModuleManager: Shutting down and abandoning module EditableMesh (522)
+[2021.01.07-03.14.38:682][209]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (520)
+[2021.01.07-03.14.38:682][209]LogModuleManager: Shutting down and abandoning module CableComponent (518)
+[2021.01.07-03.14.38:683][209]LogModuleManager: Shutting down and abandoning module AudioCapture (516)
+[2021.01.07-03.14.38:683][209]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (515)
+[2021.01.07-03.14.38:683][209]LogModuleManager: Shutting down and abandoning module AssetTags (512)
+[2021.01.07-03.14.38:683][209]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (510)
+[2021.01.07-03.14.38:683][209]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (508)
+[2021.01.07-03.14.38:683][209]LogModuleManager: Shutting down and abandoning module AppleImageUtils (506)
+[2021.01.07-03.14.38:683][209]LogModuleManager: Shutting down and abandoning module AndroidPermission (504)
+[2021.01.07-03.14.38:683][209]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (502)
+[2021.01.07-03.14.38:684][209]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (500)
+[2021.01.07-03.14.38:686][209]LogModuleManager: Shutting down and abandoning module TemplateSequence (498)
+[2021.01.07-03.14.38:686][209]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (496)
+[2021.01.07-03.14.38:686][209]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (494)
+[2021.01.07-03.14.38:688][209]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (492)
+[2021.01.07-03.14.38:688][209]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (490)
+[2021.01.07-03.14.38:688][209]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (489)
+[2021.01.07-03.14.38:694][209]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (486)
+[2021.01.07-03.14.38:696][209]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (484)
+[2021.01.07-03.14.38:696][209]LogModuleManager: Shutting down and abandoning module MediaCompositing (482)
+[2021.01.07-03.14.38:696][209]LogModuleManager: Shutting down and abandoning module ImgMedia (480)
+[2021.01.07-03.14.38:696][209]LogModuleManager: Shutting down and abandoning module BlockoutToolsPlugin (478)
+[2021.01.07-03.14.38:696][209]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (476)
+[2021.01.07-03.14.38:696][209]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (474)
+[2021.01.07-03.14.38:696][209]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (472)
+[2021.01.07-03.14.38:696][209]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (470)
+[2021.01.07-03.14.38:696][209]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (468)
+[2021.01.07-03.14.38:696][209]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (466)
+[2021.01.07-03.14.38:699][209]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (464)
+[2021.01.07-03.14.38:700][209]LogModuleManager: Shutting down and abandoning module MeshConversion (462)
+[2021.01.07-03.14.38:701][209]LogModuleManager: Shutting down and abandoning module DynamicMesh (460)
+[2021.01.07-03.14.38:702][209]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (458)
+[2021.01.07-03.14.38:703][209]LogModuleManager: Shutting down and abandoning module GeometricObjects (456)
+[2021.01.07-03.14.38:703][209]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (454)
+[2021.01.07-03.14.38:703][209]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (453)
+[2021.01.07-03.14.38:703][209]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (450)
+[2021.01.07-03.14.38:703][209]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (448)
+[2021.01.07-03.14.38:703][209]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (446)
+[2021.01.07-03.14.38:703][209]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (444)
+[2021.01.07-03.14.38:703][209]LogModuleManager: Shutting down and abandoning module ChaosNiagara (442)
+[2021.01.07-03.14.38:703][209]LogModuleManager: Shutting down and abandoning module FractureEditor (440)
+[2021.01.07-03.14.38:704][209]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (438)
+[2021.01.07-03.14.38:704][209]LogModuleManager: Shutting down and abandoning module ChaosCloth (436)
+[2021.01.07-03.14.38:705][209]LogModuleManager: Shutting down and abandoning module BackChannel (434)
+[2021.01.07-03.14.38:705][209]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (432)
+[2021.01.07-03.14.38:706][209]LogModuleManager: Shutting down and abandoning module AutomationUtils (430)
+[2021.01.07-03.14.38:706][209]LogModuleManager: Shutting down and abandoning module AlembicImporter (428)
+[2021.01.07-03.14.38:706][209]LogModuleManager: Shutting down and abandoning module AlembicLibrary (427)
+[2021.01.07-03.14.38:706][209]LogModuleManager: Shutting down and abandoning module GeometryCache (426)
+[2021.01.07-03.14.38:706][209]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (425)
+[2021.01.07-03.14.38:706][209]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (420)
+[2021.01.07-03.14.38:706][209]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (418)
+[2021.01.07-03.14.38:707][209]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (416)
+[2021.01.07-03.14.38:707][209]LogModuleManager: Shutting down and abandoning module PluginBrowser (414)
+[2021.01.07-03.14.38:710][209]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (412)
+[2021.01.07-03.14.38:712][209]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (410)
+[2021.01.07-03.14.38:712][209]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (408)
+[2021.01.07-03.14.38:713][209]LogModuleManager: Shutting down and abandoning module CurveEditorTools (406)
+[2021.01.07-03.14.38:714][209]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (404)
+[2021.01.07-03.14.38:714][209]LogModuleManager: Shutting down and abandoning module CryptoKeys (402)
+[2021.01.07-03.14.38:714][209]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (400)
+[2021.01.07-03.14.38:715][209]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (398)
+[2021.01.07-03.14.38:715][209]LogModuleManager: Shutting down and abandoning module UObjectPlugin (396)
+[2021.01.07-03.14.38:715][209]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (394)
+[2021.01.07-03.14.38:716][209]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (392)
+[2021.01.07-03.14.38:716][209]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (390)
+[2021.01.07-03.14.38:719][209]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (388)
+[2021.01.07-03.14.38:721][209]LogModuleManager: Shutting down and abandoning module GitSourceControl (386)
+[2021.01.07-03.14.38:723][209]LogModuleManager: Shutting down and abandoning module SourceControl (385)
+[2021.01.07-03.14.38:726][209]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (382)
+[2021.01.07-03.14.38:726][209]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (380)
+[2021.01.07-03.14.38:726][209]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (378)
+[2021.01.07-03.14.38:726][209]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (376)
+[2021.01.07-03.14.38:726][209]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (374)
+[2021.01.07-03.14.38:727][209]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (372)
+[2021.01.07-03.14.38:727][209]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (370)
+[2021.01.07-03.14.38:727][209]LogModuleManager: Shutting down and abandoning module Paper2DEditor (368)
+[2021.01.07-03.14.38:729][209]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2021.01.07-03.14.38:729][209]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2021.01.07-03.14.38:729][209]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2021.01.07-03.14.38:729][209]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2021.01.07-03.14.38:729][209]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2021.01.07-03.14.38:729][209]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2021.01.07-03.14.38:729][209]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2021.01.07-03.14.38:830][209]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2021.01.07-03.14.38:931][209]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2021.01.07-03.14.38:931][209]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2021.01.07-03.14.38:931][209]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2021.01.07-03.14.38:931][209]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2021.01.07-03.14.38:931][209]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2021.01.07-03.14.38:932][209]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.01.07-03.14.38:932][209]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2021.01.07-03.14.38:932][209]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2021.01.07-03.14.38:932][209]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2021.01.07-03.14.38:932][209]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2021.01.07-03.14.38:932][209]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2021.01.07-03.14.38:932][209]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.01.07-03.14.38:932][209]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2021.01.07-03.14.38:933][209]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2021.01.07-03.14.38:933][209]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2021.01.07-03.14.38:933][209]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2021.01.07-03.14.38:933][209]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2021.01.07-03.14.38:934][209]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2021.01.07-03.14.38:934][209]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2021.01.07-03.14.38:939][209]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2021.01.07-03.14.38:939][209]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2021.01.07-03.14.38:940][209]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2021.01.07-03.14.38:940][209]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2021.01.07-03.14.38:940][209]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2021.01.07-03.14.38:940][209]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2021.01.07-03.14.38:942][209]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2021.01.07-03.14.38:944][209]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2021.01.07-03.14.38:944][209]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2021.01.07-03.14.38:945][209]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2021.01.07-03.14.38:945][209]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2021.01.07-03.14.38:945][209]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2021.01.07-03.14.38:945][209]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2021.01.07-03.14.38:946][209]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2021.01.07-03.14.38:946][209]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2021.01.07-03.14.38:946][209]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2021.01.07-03.14.38:946][209]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2021.01.07-03.14.38:959][209]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2021.01.07-03.14.38:959][209]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2021.01.07-03.14.38:959][209]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2021.01.07-03.14.38:959][209]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2021.01.07-03.14.38:959][209]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2021.01.07-03.14.38:960][209]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2021.01.07-03.14.38:960][209]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2021.01.07-03.14.38:960][209]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2021.01.07-03.14.38:960][209]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2021.01.07-03.14.38:961][209]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2021.01.07-03.14.38:962][209]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2021.01.07-03.14.38:962][209]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2021.01.07-03.14.38:964][209]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2021.01.07-03.14.38:965][209]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2021.01.07-03.14.38:966][209]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2021.01.07-03.14.38:967][209]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2021.01.07-03.14.38:968][209]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2021.01.07-03.14.38:968][209]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2021.01.07-03.14.38:968][209]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2021.01.07-03.14.38:970][209]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2021.01.07-03.14.38:970][209]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2021.01.07-03.14.38:974][209]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2021.01.07-03.14.38:974][209]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2021.01.07-03.14.38:974][209]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2021.01.07-03.14.38:974][209]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2021.01.07-03.14.38:974][209]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2021.01.07-03.14.38:974][209]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2021.01.07-03.14.38:974][209]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2021.01.07-03.14.38:974][209]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2021.01.07-03.14.38:975][209]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2021.01.07-03.14.38:975][209]LogModuleManager: Shutting down and abandoning module Core (216)
+[2021.01.07-03.14.38:975][209]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2021.01.07-03.14.38:977][209]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2021.01.07-03.14.38:979][209]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2021.01.07-03.14.38:984][209]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2021.01.07-03.14.38:986][209]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2021.01.07-03.14.38:986][209]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2021.01.07-03.14.38:987][209]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2021.01.07-03.14.38:987][209]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2021.01.07-03.14.38:988][209]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2021.01.07-03.14.38:988][209]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2021.01.07-03.14.38:989][209]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2021.01.07-03.14.38:989][209]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2021.01.07-03.14.38:992][209]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2021.01.07-03.14.38:992][209]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2021.01.07-03.14.38:993][209]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2021.01.07-03.14.38:993][209]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2021.01.07-03.14.38:993][209]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2021.01.07-03.14.38:994][209]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2021.01.07-03.14.38:994][209]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2021.01.07-03.14.38:995][209]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2021.01.07-03.14.38:995][209]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2021.01.07-03.14.38:996][209]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2021.01.07-03.14.38:996][209]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2021.01.07-03.14.38:997][209]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2021.01.07-03.14.38:997][209]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2021.01.07-03.14.38:997][209]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2021.01.07-03.14.38:997][209]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2021.01.07-03.14.38:997][209]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2021.01.07-03.14.38:997][209]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2021.01.07-03.14.38:997][209]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2021.01.07-03.14.38:997][209]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2021.01.07-03.14.38:998][209]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2021.01.07-03.14.38:998][209]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2021.01.07-03.14.38:998][209]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2021.01.07-03.14.38:998][209]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2021.01.07-03.14.38:998][209]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2021.01.07-03.14.38:998][209]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2021.01.07-03.14.38:998][209]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2021.01.07-03.14.39:013][209]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2021.01.07-03.14.39:020][209]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2021.01.07-03.14.39:020][209]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2021.01.07-03.14.39:021][209]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2021.01.07-03.14.39:021][209]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2021.01.07-03.14.39:021][209]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2021.01.07-03.14.39:021][209]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2021.01.07-03.14.39:022][209]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2021.01.07-03.14.39:022][209]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2021.01.07-03.14.39:022][209]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2021.01.07-03.14.39:027][209]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2021.01.07-03.14.39:050][209]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2021.01.07-03.14.39:050][209]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2021.01.07-03.14.39:050][209]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2021.01.07-03.14.39:050][209]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2021.01.07-03.14.39:051][209]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2021.01.07-03.14.39:051][209]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2021.01.07-03.14.39:052][209]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2021.01.07-03.14.39:052][209]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2021.01.07-03.14.39:052][209]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2021.01.07-03.14.39:053][209]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2021.01.07-03.14.39:053][209]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2021.01.07-03.14.39:053][209]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2021.01.07-03.14.39:053][209]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2021.01.07-03.14.39:053][209]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2021.01.07-03.14.39:053][209]LogHMD: Freeing OpenVRDLLHandle.
+[2021.01.07-03.14.39:053][209]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2021.01.07-03.14.39:053][209]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2021.01.07-03.14.39:053][209]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2021.01.07-03.14.39:053][209]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2021.01.07-03.14.39:054][209]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2021.01.07-03.14.39:056][209]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2021.01.07-03.14.39:057][209]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2021.01.07-03.14.39:066][209]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2021.01.07-03.14.39:066][209]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.01.07-03.14.39:066][209]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B53202E92-46EC-7AD8-8072-6FBC6006EC62%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=0f4e814d4906f2597ace7ab01c1fe078%7C5c4c68e0524040fa96aa9e8a389cdb9d%7Cb3d58b62-cc22-4390-bad1-cc66f8a974fc&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2021.01.07-03.14.39:082][209]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2021.01.07-03.14.39:085][209]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2021.01.07-03.14.39:088][209]LogModuleManager: Shutting down and abandoning module Media (61)
+[2021.01.07-03.14.39:089][209]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2021.01.07-03.14.39:089][209]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2021.01.07-03.14.39:090][209]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2021.01.07-03.14.39:090][209]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2021.01.07-03.14.39:090][209]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2021.01.07-03.14.39:090][209]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2021.01.07-03.14.39:090][209]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2021.01.07-03.14.39:090][209]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2021.01.07-03.14.39:091][209]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2021.01.07-03.14.39:091][209]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2021.01.07-03.14.39:091][209]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.01.07-03.14.39:093][209]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.01.07-03.14.39:093][209]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2021.01.07-03.14.39:095][209]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.01.07-03.14.39:095][209]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.01.07-03.14.39:095][209]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.01.07-03.14.39:095][209]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.01.07-03.14.39:098][209]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.01.07-03.14.39:099][209]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.01.07-03.14.39:099][209]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.01.07-03.14.39:099][209]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.01.07-03.14.39:100][209]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.01.07-03.14.39:100][209]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.01.07-03.14.39:100][209]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.01.07-03.14.39:100][209]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.01.07-03.14.39:100][209]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.01.07-03.14.39:100][209]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.01.07-03.14.39:101][209]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.01.07-03.14.39:101][209]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.01.07-03.14.39:103][209]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.01.07-03.14.39:173][209]LogD3D11RHI: Shutdown
+[2021.01.07-03.14.39:173][209]LogD3D11RHI: CleanupD3DDevice
+[2021.01.07-03.14.39:206][209]LogExit: Exiting.
+[2021.01.07-03.14.39:238][209]Log file closed, 01/06/21 22:14:39
