@@ -31,11 +31,11 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	if (QueueTrigger && QueueTrigger->IsOverlappingActor(OpenActor))
 	{
-		AlterDoorState(DeltaTime, OpenYaw, .5f); //Open Door
+		AlterDoorState(DeltaTime, OpenYaw, OPEN_SPEED); //Open Door
 	}
 	else
 	{
-		AlterDoorState(DeltaTime, InitialRotation.Yaw, 2.f); //Close Door
+		AlterDoorState(DeltaTime, InitialRotation.Yaw, CLOSE_SPEED); //Close Door
 	}
 }
 
@@ -45,7 +45,7 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
  * @param DeltaTime 
  * @param FinalYaw 
  */
-void UOpenDoor::AlterDoorState(const float &DeltaTime, const float& FinalYaw, float Speed) const
+void UOpenDoor::AlterDoorState(const float &DeltaTime, const float& FinalYaw, const float Speed) const
 {
 	float targetYaw = FMath::FInterpTo(GetOwner()->GetActorRotation().Yaw, FinalYaw, DeltaTime, Speed);
 	GetOwner()->SetActorRelativeRotation(FRotator(InitialRotation.Pitch, targetYaw, InitialRotation.Roll));

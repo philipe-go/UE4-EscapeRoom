@@ -60,6 +60,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOpenDoor); \
 
 #define UE4EscapeRoom_Source_UE4EscapeRoom_OpenDoor_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__OpenYaw() { return STRUCT_OFFSET(UOpenDoor, OpenYaw); } \
+	FORCEINLINE static uint32 __PPO__OPEN_SPEED() { return STRUCT_OFFSET(UOpenDoor, OPEN_SPEED); } \
+	FORCEINLINE static uint32 __PPO__CLOSE_SPEED() { return STRUCT_OFFSET(UOpenDoor, CLOSE_SPEED); } \
 	FORCEINLINE static uint32 __PPO__QueueTrigger() { return STRUCT_OFFSET(UOpenDoor, QueueTrigger); } \
 	FORCEINLINE static uint32 __PPO__OpenActor() { return STRUCT_OFFSET(UOpenDoor, OpenActor); }
 
