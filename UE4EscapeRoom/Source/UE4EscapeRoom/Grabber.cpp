@@ -27,44 +27,42 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+	//If player has grabbed an object
 	if (PhysicsHandle->GrabbedComponent)
 	{
-		//TODO - Refactor below codes to remove LineTraceEnd calcs
-		FVector LocationPlayerViewPoint;
-		FRotator RotationPlayerViewPoint;
-		GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(LocationPlayerViewPoint, RotationPlayerViewPoint);
-		LineTraceEnd = LocationPlayerViewPoint + (RotationPlayerViewPoint.Vector() * LineTraceReach);
-
-		PhysicsHandle->SetTargetLocation(LineTraceEnd);
+		PhysicsHandle->SetTargetLocation(GrabberReach());
 	}
 }
 
 /**
-  * @brief keed checking which objects are being interacted.
- * It detects the objects through a Line tracing. 
- * @return AActor* Detected object if valid
+ * @brief Use Line Trace to check which objects are being interacted.
+ * @return FHitResult Interactable detected
  */
-void UGrabber::DetectObjects()
+FHitResult UGrabber::DetectObjects() const 
 {
-	//The following parameters will be modified by the OUT in the GetPlayerViewPoint
+	FCollisionQueryParams TraceParams(FName(TEXT("")), false, GetOwner());
+	FHitResult Hit;
+	GetWorld()->LineTraceSingleByObjectType(
+		Hit,
+		GetOwner()->GetActorLocation(),
+		GrabberReach(),
+		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
+		TraceParams);
+
+	return Hit;
+}
+
+/**
+ * @brief 
+ * Return the reach's line based on the player's location and rotation
+ * @return FVector the reach vector (like hands location)
+ */
+FVector UGrabber::GrabberReach() const
+{
 	FVector LocationPlayerViewPoint;
 	FRotator RotationPlayerViewPoint;
 	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(LocationPlayerViewPoint, RotationPlayerViewPoint);
-
-	LineTraceEnd = LocationPlayerViewPoint + (RotationPlayerViewPoint.Vector() * LineTraceReach);
-
-#if WITH_EDITOR
-	DrawDebugLine(GetWorld(), LocationPlayerViewPoint, LineTraceEnd, FColor::Orange, false, -1.f, 0.f, 1.f);
-#endif
-
-	// FHitResult Hit;
-	FCollisionQueryParams TraceParams(FName(TEXT("")), false, GetOwner());
-	GetWorld()->LineTraceSingleByObjectType(
-		PickedObject,
-		LocationPlayerViewPoint,
-		LineTraceEnd,
-		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
-		TraceParams);
+	return LocationPlayerViewPoint + (RotationPlayerViewPoint.Vector() * LineTraceReach);
 }
 
 /**
@@ -73,12 +71,12 @@ void UGrabber::DetectObjects()
  */
 void UGrabber::Pickup()
 {
-	DetectObjects();
-	UPrimitiveComponent *ComponentToPick = PickedObject.GetComponent();
+	PickedObject = DetectObjects();
+	UPrimitiveComponent* ComponentToPick = PickedObject.GetComponent();
 
 	if (PickedObject.GetActor())
 	{
-		PhysicsHandle->GrabComponentAtLocation(ComponentToPick, NAME_None, PickedObject.GetActor()->GetActorLocation());
+		PhysicsHandle->GrabComponentAtLocation(ComponentToPick, NAME_None, GrabberReach());
 
 #if WITH_EDITOR
 		UE_LOG(LogTemp, Warning, TEXT("Picked up object: %s"), *PickedObject.GetActor()->GetName());
@@ -87,6 +85,7 @@ void UGrabber::Pickup()
 	{
 		UE_LOG(LogTemp, Warning, TEXT("No objects to pickup"));
 #endif
+
 	}
 }
 
@@ -98,17 +97,17 @@ void UGrabber::Drop()
 {
 	if (PickedObject.GetActor())
 	{
+		PhysicsHandle->ReleaseComponent();
+		
 #if WITH_EDITOR
 		UE_LOG(LogTemp, Warning, TEXT("Dropped up object: %s"), *PickedObject.GetActor()->GetName());
-#endif
-		PhysicsHandle->ReleaseComponent();
 	}
-#if WITH_EDITOR
 	else
 	{
 		UE_LOG(LogTemp, Warning, TEXT("No objects to drop"));
-	}
 #endif
+
+	}
 }
 
 /**
@@ -146,3 +145,5 @@ void UGrabber::SetupInput()
 	}
 #endif
 }
+
+

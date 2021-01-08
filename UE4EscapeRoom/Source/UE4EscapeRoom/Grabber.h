@@ -26,9 +26,9 @@ private:
 	//### Pickup Objects handling ###
 	//Linetracing to detect objects
 	UPROPERTY(EditAnywhere)
-	float LineTraceReach = 100.f;
-	FVector LineTraceEnd;
-	void DetectObjects();
+	float LineTraceReach = 120.f;
+	FHitResult DetectObjects() const;
+	FVector GrabberReach() const;
 	
 	//Attach & Drop picked object
 	void Pickup();

@@ -2605,3 +2605,291 @@ Script Stack (0 frames):
 [2021.01.08-18.45.47:827][527]AssetCheck: New page: Asset Save: multiple assets
 [2021.01.08-18.45.47:827][527]LogContentValidation: Display: Validating World /Game/Maps/FirstMap.FirstMap
 [2021.01.08-18.45.47:827][527]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FirstMap_BuiltData.FirstMap_BuiltData
+[2021.01.08-18.53.20:485][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstMap" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.08-18.53.20:506][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.01.08-18.53.20:555][ 13]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/FirstMapC7F0699141FFF8C6FDC3F8BD8B5CA5C6.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap.umap'
+[2021.01.08-18.53.20:580][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstMap_BuiltData" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap_BuiltData.uasset" SILENT=true
+[2021.01.08-18.53.21:191][ 13]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/FirstMap_BuiltDataD25345044D3B6AA997E548A3AAFF31D3.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Content/Maps/FirstMap_BuiltData.uasset'
+[2021.01.08-18.53.21:214][ 13]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.08-18.53.21:214][ 13]LogContentValidation: Display: Validating World /Game/Maps/FirstMap.FirstMap
+[2021.01.08-18.53.21:214][ 13]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FirstMap_BuiltData.FirstMap_BuiltData
+[2021.01.08-18.53.22:978][118]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.08-18.53.22:993][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.08-18.53.22:993][118]PIE: New page: PIE session: FirstMap (Jan. 8, 2021, 8:53:22 a.m.)
+[2021.01.08-18.53.22:993][118]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstMap
+[2021.01.08-18.53.23:002][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009101s)
+[2021.01.08-18.53.23:004][118]LogAIModule: Creating AISystem for world FirstMap
+[2021.01.08-18.53.23:004][118]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026B742AF200), frame # 161118
+[2021.01.08-18.53.23:004][118]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026B75713740), frame # 161118
+[2021.01.08-18.53.23:004][118]LogPlayLevel: PIE: World Init took: (0.001640s)
+[2021.01.08-18.53.23:004][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstMap.FirstMap to /Game/Maps/UEDPIE_0_FirstMap.FirstMap (0.010921s)
+[2021.01.08-18.53.23:023][118]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2021.01.08-18.53.23:024][118]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.08-18.53.23:024][118]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.08-18.53.23:024][118]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.08-18.53.23:024][118]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.08-18.53.23:024][118]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.08-18.53.23:024][118]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.08-18.53.23:024][118]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.08-18.53.23:024][118]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.08-18.53.23:025][118]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.08-18.53.23:025][118]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.08-18.53.23:029][118]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.08-18.53.23:029][118]LogAudioMixer: Display: 1: FrontRight
+[2021.01.08-18.53.23:054][118]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.08-18.53.23:054][118]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.08-18.53.23:054][118]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.08-18.53.23:054][118]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.08-18.53.23:055][118]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.08-18.53.23:070][118]LogInit: FAudioDevice initialized.
+[2021.01.08-18.53.23:079][118]LogLoad: Game class is 'BP_GameMode_C'
+[2021.01.08-18.53.23:082][118]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 60) at 2021.01.08-13.53.23
+[2021.01.08-18.53.23:083][118]LogWorld: Bringing up level for play took: 0.002348
+[2021.01.08-18.53.23:083][118]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2021.01.08-18.53.23:086][118]PIE: Server logged in
+[2021.01.08-18.53.23:087][118]PIE: Play in editor total start time 0.096 seconds.
+[2021.01.08-18.53.26:747][337]LogTemp: Warning: Picked up object: SM_Crate_373
+[2021.01.08-18.53.40:347][142]LogTemp: Warning: Dropped up object: SM_Crate_373
+[2021.01.08-18.54.01:499][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.08-18.54.01:499][408]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstMap
+[2021.01.08-18.54.01:499][408]LogWorld: UWorld::CleanupWorld for FirstMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.08-18.54.01:500][408]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.08-18.54.01:522][408]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.08-18.54.01:533][408]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.08-18.54.01:588][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.08-18.54.01:660][408]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026B75713740), frame # 163408
+[2021.01.08-18.54.01:660][408]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026B742AF200), frame # 163408
+[2021.01.08-18.54.01:668][408]LogUObjectHash: Compacting FUObjectHashTables data took   6.85ms
+[2021.01.08-18.54.01:784][409]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2021.01.08-18.57.40:556][862]LogRenderer: Reallocating scene render targets to support 1916x1024 Format 10 NumSamples 1 (Frame:133539).
+[2021.01.08-18.58.06:918][291]LogSlate: Window 'Viewport 1' being destroyed
+[2021.01.08-18.58.55:500][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.08-18.58.55:508][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.08-18.58.55:518][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.08-18.58.55:525][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.08-18.59.03:866][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Crate)
+[2021.01.08-18.59.05:295][497]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-18.59.06:237][532]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-18.59.07:132][562]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-18.59.07:533][576]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-18.59.07:831][586]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-18.59.09:016][625]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-18.59.09:508][641]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-18.59.12:219][729]LogEditorViewport: Clicking Background
+[2021.01.08-18.59.12:979][761]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-18.59.12:979][761]Can't find target actor or component.
+[2021.01.08-18.59.13:537][785]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-18.59.13:537][785]Can't find target actor or component.
+[2021.01.08-18.59.13:697][790]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-18.59.13:697][790]Can't find target actor or component.
+[2021.01.08-18.59.15:115][849]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Crate)
+[2021.01.08-18.59.30:587][418]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Logcabin_Wall_05)
+[2021.01.08-18.59.37:166][666]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-19.00.14:496][ 61]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-19.00.16:008][116]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-19.00.16:298][126]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-19.00.16:485][133]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-19.00.16:701][141]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-19.00.16:923][149]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-19.00.17:139][157]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-19.00.42:489][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Logcabin_Wall_04)
+[2021.01.08-19.00.52:574][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Crate)
+[2021.01.08-19.00.55:199][573]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-19.01.18:915][330]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-19.01.24:401][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Logcabin_Floor_02)
+[2021.01.08-19.01.25:823][601]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bed)
+[2021.01.08-19.01.26:543][628]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-19.01.28:365][702]Cmd: CAMERA ALIGN
+[2021.01.08-19.01.32:217][857]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Crate)
+[2021.01.08-19.01.33:328][900]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-19.01.34:851][955]Cmd: CAMERA ALIGN
+[2021.01.08-19.01.36:494][ 18]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bed)
+[2021.01.08-19.01.37:168][ 42]Cmd: CAMERA ALIGN
+[2021.01.08-19.01.38:719][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Crate)
+[2021.01.08-19.01.39:632][134]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-19.01.41:147][193]Cmd: CAMERA ALIGN
+[2021.01.08-19.01.58:078][814]LogSlate: Window 'Viewport 2' being destroyed
+[2021.01.08-19.02.07:236][336]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.08-19.03.59:199][232]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2021.01.08-19.03.59:214][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstMap" FILE="../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/Autosaves/Game/Maps/FirstMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.01.08-19.03.59:268][232]LogSavePackage: Moving '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/FirstMap_Auto14305D83D4B2EFA4F7DB079B2D5396D6A.tmp' to '../../../../GameDesign/UE4-EscapeRoom/UE4EscapeRoom/Saved/Autosaves/Game/Maps/FirstMap_Auto1.umap'
+[2021.01.08-19.03.59:273][232]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstMap' took 0.099
+[2021.01.08-19.03.59:273][232]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.099
+[2021.01.08-19.26.25:301][269]Candidate modules for hot reload:
+[2021.01.08-19.26.25:301][269]  UE4EscapeRoom
+[2021.01.08-19.26.25:301][269]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4EscapeRoom,2295 UE4EscapeRoomEditor Win64 Development -Project="D:/Documents/GameDesign/UE4-EscapeRoom/UE4EscapeRoom/UE4EscapeRoom.uproject" "D:/Documents/GameDesign/UE4-EscapeRoom/UE4EscapeRoom/UE4EscapeRoom.uproject"  -IgnoreJunk]
+[2021.01.08-19.26.25:608][269]Warning: Starting HotReload took  0.3s.
+[2021.01.08-19.26.39:248][ 73]CompilerResultsLog: New page: Compilation - Jan. 8, 2021, 9:26:39 a.m.
+[2021.01.08-19.26.39:249][ 73]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\UE4-EscapeRoom).
+[2021.01.08-19.26.39:249][ 73]CompilerResultsLog: Parsing headers for UE4EscapeRoomEditor
+[2021.01.08-19.26.39:249][ 73]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\UE4EscapeRoom.uproject" "D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4EscapeRoomEditor\Development\UE4EscapeRoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\lipin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.08-19.26.39:249][ 73]CompilerResultsLog: Reflection code generated for UE4EscapeRoomEditor in 9.3105688 seconds
+[2021.01.08-19.26.39:249][ 73]CompilerResultsLog: Building UE4EscapeRoomEditor...
+[2021.01.08-19.26.39:249][ 73]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.08-19.26.39:249][ 73]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.01.08-19.26.39:249][ 73]CompilerResultsLog:   [1/5] Grabber.gen.cpp
+[2021.01.08-19.26.39:249][ 73]CompilerResultsLog:   [2/5] Grabber.cpp
+[2021.01.08-19.26.39:249][ 73]CompilerResultsLog:   [3/5] UE4Editor-UE4EscapeRoom-2295.lib
+[2021.01.08-19.26.39:249][ 73]CompilerResultsLog:      Creating library D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\UE4Editor-UE4EscapeRoom-2295.lib and object D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\UE4Editor-UE4EscapeRoom-2295.exp
+[2021.01.08-19.26.39:249][ 73]CompilerResultsLog:   [4/5] UE4Editor-UE4EscapeRoom-2295.dll
+[2021.01.08-19.26.39:249][ 73]CompilerResultsLog:      Creating library D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\UE4Editor-UE4EscapeRoom-2295.suppressed.lib and object D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\UE4Editor-UE4EscapeRoom-2295.suppressed.exp
+[2021.01.08-19.26.39:249][ 73]CompilerResultsLog:   [5/5] UE4EscapeRoomEditor.target
+[2021.01.08-19.26.39:249][ 73]CompilerResultsLog: Total time in Parallel executor: 2.78 seconds
+[2021.01.08-19.26.39:249][ 73]CompilerResultsLog: Total execution time: 13.48 seconds
+[2021.01.08-19.26.39:250][ 73]LogMainFrame: MainFrame: Module compiling took 13.954 seconds
+[2021.01.08-19.26.39:269][ 73]LogClass: Could not find existing class Grabber in package /Script/UE4EscapeRoom for HotReload, assuming new class
+[2021.01.08-19.26.39:290][ 73]LogHotReload: Re-instancing Grabber after hot-reload.
+[2021.01.08-19.26.39:311][ 73]LogContentBrowser: Native class hierarchy updated for 'UE4EscapeRoom' in 0.0010 seconds. Added 3 classes and 2 folders.
+[2021.01.08-19.26.39:315][ 73]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.08-19.26.39:424][ 73]LogContentBrowser: Native class hierarchy populated in 0.0167 seconds. Added 3431 classes and 826 folders.
+[2021.01.08-19.26.39:454][ 73]Display: HotReload took 14.2s.
+[2021.01.08-19.26.41:524][156]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.08-19.26.41:547][156]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.08-19.26.41:547][156]PIE: New page: PIE session: FirstMap (Jan. 8, 2021, 9:26:41 a.m.)
+[2021.01.08-19.26.41:547][156]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstMap
+[2021.01.08-19.26.41:555][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007365s)
+[2021.01.08-19.26.41:557][156]LogAIModule: Creating AISystem for world FirstMap
+[2021.01.08-19.26.41:557][156]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026B3FD92000), frame # 182156
+[2021.01.08-19.26.41:557][156]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026B3FDA4E00), frame # 182156
+[2021.01.08-19.26.41:557][156]LogPlayLevel: PIE: World Init took: (0.002742s)
+[2021.01.08-19.26.41:558][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstMap.FirstMap to /Game/Maps/UEDPIE_0_FirstMap.FirstMap (0.010303s)
+[2021.01.08-19.26.41:706][156]LogUObjectHash: Compacting FUObjectHashTables data took   5.67ms
+[2021.01.08-19.26.41:711][156]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.08-19.26.41:711][156]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.08-19.26.41:711][156]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.08-19.26.41:711][156]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.08-19.26.41:711][156]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.08-19.26.41:711][156]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.08-19.26.41:711][156]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.08-19.26.41:711][156]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.08-19.26.41:712][156]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.08-19.26.41:712][156]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.08-19.26.41:718][156]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.08-19.26.41:718][156]LogAudioMixer: Display: 1: FrontRight
+[2021.01.08-19.26.41:750][156]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.08-19.26.41:750][156]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.08-19.26.41:751][156]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.08-19.26.41:751][156]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.08-19.26.41:752][156]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.08-19.26.41:767][156]LogInit: FAudioDevice initialized.
+[2021.01.08-19.26.41:780][156]LogLoad: Game class is 'BP_GameMode_C'
+[2021.01.08-19.26.41:783][156]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 60) at 2021.01.08-14.26.41
+[2021.01.08-19.26.41:783][156]LogWorld: Bringing up level for play took: 0.002139
+[2021.01.08-19.26.41:783][156]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2021.01.08-19.26.41:786][156]PIE: Server logged in
+[2021.01.08-19.26.41:788][156]PIE: Play in editor total start time 0.249 seconds.
+[2021.01.08-19.26.46:137][416]LogTemp: Warning: Picked up object: SM_Crate_373
+[2021.01.08-19.26.54:655][927]LogTemp: Warning: Dropped up object: SM_Crate_373
+[2021.01.08-19.26.56:639][ 46]LogTemp: Warning: Picked up object: SM_Crate_373
+[2021.01.08-19.27.04:154][497]LogTemp: Warning: Dropped up object: SM_Crate_373
+[2021.01.08-19.27.06:643][644]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.08-19.27.06:643][644]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstMap
+[2021.01.08-19.27.06:644][644]LogWorld: UWorld::CleanupWorld for FirstMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.08-19.27.06:644][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.08-19.27.06:656][644]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.08-19.27.06:660][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.08-19.27.06:685][644]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.08-19.27.06:748][644]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026B3FDA4E00), frame # 183644
+[2021.01.08-19.27.06:748][644]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026B3FD92000), frame # 183644
+[2021.01.08-19.27.06:752][644]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.01.08-19.27.06:797][645]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2021.01.08-19.33.14:508][428]Candidate modules for hot reload:
+[2021.01.08-19.33.14:508][428]  UE4EscapeRoom
+[2021.01.08-19.33.14:509][428]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4EscapeRoom,981 UE4EscapeRoomEditor Win64 Development -Project="D:/Documents/GameDesign/UE4-EscapeRoom/UE4EscapeRoom/UE4EscapeRoom.uproject" "D:/Documents/GameDesign/UE4-EscapeRoom/UE4EscapeRoom/UE4EscapeRoom.uproject"  -IgnoreJunk]
+[2021.01.08-19.33.14:702][428]Warning: Starting HotReload took  0.2s.
+[2021.01.08-19.33.26:174][550]CompilerResultsLog: New page: Compilation - Jan. 8, 2021, 9:33:26 a.m.
+[2021.01.08-19.33.26:174][550]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\UE4-EscapeRoom).
+[2021.01.08-19.33.26:174][550]CompilerResultsLog: Parsing headers for UE4EscapeRoomEditor
+[2021.01.08-19.33.26:174][550]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\UE4EscapeRoom.uproject" "D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4EscapeRoomEditor\Development\UE4EscapeRoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\lipin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.08-19.33.26:174][550]CompilerResultsLog: Reflection code generated for UE4EscapeRoomEditor in 7.4939327 seconds
+[2021.01.08-19.33.26:174][550]CompilerResultsLog: Building UE4EscapeRoomEditor...
+[2021.01.08-19.33.26:174][550]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.08-19.33.26:174][550]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.01.08-19.33.26:174][550]CompilerResultsLog:   [1/5] Grabber.gen.cpp
+[2021.01.08-19.33.26:174][550]CompilerResultsLog:   [2/5] Grabber.cpp
+[2021.01.08-19.33.26:174][550]CompilerResultsLog:   [3/5] UE4Editor-UE4EscapeRoom-0981.lib
+[2021.01.08-19.33.26:174][550]CompilerResultsLog:      Creating library D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\UE4Editor-UE4EscapeRoom-0981.lib and object D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\UE4Editor-UE4EscapeRoom-0981.exp
+[2021.01.08-19.33.26:174][550]CompilerResultsLog:   [4/5] UE4Editor-UE4EscapeRoom-0981.dll
+[2021.01.08-19.33.26:174][550]CompilerResultsLog:      Creating library D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\UE4Editor-UE4EscapeRoom-0981.suppressed.lib and object D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\UE4Editor-UE4EscapeRoom-0981.suppressed.exp
+[2021.01.08-19.33.26:174][550]CompilerResultsLog:   [5/5] UE4EscapeRoomEditor.target
+[2021.01.08-19.33.26:174][550]CompilerResultsLog: Total time in Parallel executor: 2.33 seconds
+[2021.01.08-19.33.26:174][550]CompilerResultsLog: Total execution time: 11.13 seconds
+[2021.01.08-19.33.26:174][550]LogMainFrame: MainFrame: Module compiling took 11.671 seconds
+[2021.01.08-19.33.26:188][550]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 3431 classes and 826 folders.
+[2021.01.08-19.33.26:203][550]Display: HotReload took 11.7s.
+[2021.01.08-19.33.28:944][576]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.08-19.33.28:966][576]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.08-19.33.28:966][576]PIE: New page: PIE session: FirstMap (Jan. 8, 2021, 9:33:28 a.m.)
+[2021.01.08-19.33.28:966][576]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstMap
+[2021.01.08-19.33.28:973][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007180s)
+[2021.01.08-19.33.28:976][576]LogAIModule: Creating AISystem for world FirstMap
+[2021.01.08-19.33.28:976][576]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026B6792E000), frame # 185576
+[2021.01.08-19.33.28:976][576]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026B2A93A0C0), frame # 185576
+[2021.01.08-19.33.28:977][576]LogPlayLevel: PIE: World Init took: (0.003199s)
+[2021.01.08-19.33.28:977][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstMap.FirstMap to /Game/Maps/UEDPIE_0_FirstMap.FirstMap (0.010605s)
+[2021.01.08-19.33.29:050][576]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2021.01.08-19.33.29:052][576]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.08-19.33.29:052][576]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.08-19.33.29:052][576]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.08-19.33.29:052][576]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.08-19.33.29:052][576]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.08-19.33.29:052][576]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.08-19.33.29:052][576]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.08-19.33.29:052][576]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.08-19.33.29:052][576]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.08-19.33.29:052][576]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.08-19.33.29:057][576]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.08-19.33.29:057][576]LogAudioMixer: Display: 1: FrontRight
+[2021.01.08-19.33.29:087][576]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.08-19.33.29:088][576]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.08-19.33.29:088][576]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.08-19.33.29:088][576]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.08-19.33.29:090][576]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.08-19.33.29:106][576]LogInit: FAudioDevice initialized.
+[2021.01.08-19.33.29:118][576]LogLoad: Game class is 'BP_GameMode_C'
+[2021.01.08-19.33.29:121][576]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 60) at 2021.01.08-14.33.29
+[2021.01.08-19.33.29:122][576]LogWorld: Bringing up level for play took: 0.002630
+[2021.01.08-19.33.29:122][576]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2021.01.08-19.33.29:125][576]PIE: Server logged in
+[2021.01.08-19.33.29:126][576]PIE: Play in editor total start time 0.166 seconds.
+[2021.01.08-19.33.33:592][843]LogTemp: Warning: Picked up object: SM_Crate_373
+[2021.01.08-19.33.39:008][168]LogTemp: Warning: Dropped up object: SM_Crate_373
+[2021.01.08-19.33.40:433][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.08-19.33.40:433][252]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstMap
+[2021.01.08-19.33.40:434][252]LogWorld: UWorld::CleanupWorld for FirstMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.08-19.33.40:434][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.08-19.33.40:443][252]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.08-19.33.40:447][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.08-19.33.40:492][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.08-19.33.40:495][252]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026B2A93A0C0), frame # 186252
+[2021.01.08-19.33.40:495][252]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026B6792E000), frame # 186252
+[2021.01.08-19.33.40:521][252]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2021.01.08-19.33.40:564][253]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2021.01.08-19.33.52:806][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Logcabin_Window_003)
+[2021.01.08-19.33.53:126][369]Candidate modules for hot reload:
+[2021.01.08-19.33.53:126][369]  UE4EscapeRoom
+[2021.01.08-19.33.53:127][369]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4EscapeRoom,2101 UE4EscapeRoomEditor Win64 Development -Project="D:/Documents/GameDesign/UE4-EscapeRoom/UE4EscapeRoom/UE4EscapeRoom.uproject" "D:/Documents/GameDesign/UE4-EscapeRoom/UE4EscapeRoom/UE4EscapeRoom.uproject"  -IgnoreJunk]
+[2021.01.08-19.33.53:216][369]Warning: Starting HotReload took  0.1s.
+[2021.01.08-19.34.07:422][436]CompilerResultsLog: New page: Compilation - Jan. 8, 2021, 9:34:07 a.m.
+[2021.01.08-19.34.07:423][436]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\UE4-EscapeRoom).
+[2021.01.08-19.34.07:423][436]CompilerResultsLog: Parsing headers for UE4EscapeRoomEditor
+[2021.01.08-19.34.07:423][436]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\UE4EscapeRoom.uproject" "D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4EscapeRoomEditor\Development\UE4EscapeRoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\lipin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.08-19.34.07:423][436]CompilerResultsLog: Reflection code generated for UE4EscapeRoomEditor in 9.5330077 seconds
+[2021.01.08-19.34.07:423][436]CompilerResultsLog: Building UE4EscapeRoomEditor...
+[2021.01.08-19.34.07:423][436]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.08-19.34.07:423][436]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.01.08-19.34.07:423][436]CompilerResultsLog:   [1/5] Grabber.cpp
+[2021.01.08-19.34.07:423][436]CompilerResultsLog:   [2/5] Grabber.gen.cpp
+[2021.01.08-19.34.07:423][436]CompilerResultsLog:   [3/5] UE4Editor-UE4EscapeRoom-2101.lib
+[2021.01.08-19.34.07:423][436]CompilerResultsLog:      Creating library D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\UE4Editor-UE4EscapeRoom-2101.lib and object D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\UE4Editor-UE4EscapeRoom-2101.exp
+[2021.01.08-19.34.07:423][436]CompilerResultsLog:   [4/5] UE4Editor-UE4EscapeRoom-2101.dll
+[2021.01.08-19.34.07:423][436]CompilerResultsLog:      Creating library D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\UE4Editor-UE4EscapeRoom-2101.suppressed.lib and object D:\Documents\GameDesign\UE4-EscapeRoom\UE4EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4EscapeRoom\UE4Editor-UE4EscapeRoom-2101.suppressed.exp
+[2021.01.08-19.34.07:423][436]CompilerResultsLog:   [5/5] UE4EscapeRoomEditor.target
+[2021.01.08-19.34.07:423][436]CompilerResultsLog: Total time in Parallel executor: 2.62 seconds
+[2021.01.08-19.34.07:423][436]CompilerResultsLog: Total execution time: 13.78 seconds
+[2021.01.08-19.34.07:423][436]LogMainFrame: MainFrame: Module compiling took 14.301 seconds
+[2021.01.08-19.34.07:443][436]LogHotReload: Re-instancing Grabber after hot-reload.
+[2021.01.08-19.34.07:473][436]LogContentBrowser: Native class hierarchy updated for 'UE4EscapeRoom' in 0.0005 seconds. Added 3 classes and 2 folders.
+[2021.01.08-19.34.07:478][436]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.08-19.34.07:543][436]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 3431 classes and 826 folders.
+[2021.01.08-19.34.07:553][436]Display: HotReload took 14.4s.
