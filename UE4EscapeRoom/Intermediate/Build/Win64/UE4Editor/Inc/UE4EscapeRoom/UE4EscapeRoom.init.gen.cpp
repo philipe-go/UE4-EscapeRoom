@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeUE4EscapeRoom_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xA0F9E60B,
+				0x6305BCE1,
 				0xE26E2638,
 				METADATA_PARAMS(nullptr, 0)
 			};

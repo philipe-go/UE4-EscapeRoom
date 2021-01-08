@@ -54,7 +54,9 @@ void EmptyLinkFunctionForGeneratedCodeGrabber() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGrabber_Statics::NewProp_LineTraceReach_MetaData[] = {
 		{ "Category", "Grabber" },
+		{ "Comment", "//### Pickup Objects handling ###\n//Linetracing to detect objects\n" },
 		{ "ModuleRelativePath", "Grabber.h" },
+		{ "ToolTip", "### Pickup Objects handling ###\nLinetracing to detect objects" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UGrabber_Statics::NewProp_LineTraceReach = { "LineTraceReach", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGrabber, LineTraceReach), METADATA_PARAMS(Z_Construct_UClass_UGrabber_Statics::NewProp_LineTraceReach_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGrabber_Statics::NewProp_LineTraceReach_MetaData)) };
@@ -88,7 +90,7 @@ void EmptyLinkFunctionForGeneratedCodeGrabber() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGrabber, 68305911);
+	IMPLEMENT_CLASS(UGrabber, 537422192);
 	template<> UE4ESCAPEROOM_API UClass* StaticClass<UGrabber>()
 	{
 		return UGrabber::StaticClass();
